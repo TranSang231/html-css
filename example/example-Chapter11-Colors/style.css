@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(146, 146, 146);
+    padding: 20px;
+    color: #fff;
+
+}
+h1 {
+    color: rgb(32, 32, 32);
+    background-color: rgb(201, 197, 197);
+    padding: inherit;
+    font-size: 32px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+p {
+    padding: 5px;
+    margin : 0px
+}
+
+#_14 {
+    background-color:  rgb(6, 95, 146);
+} 
+#_13 {
+    background-color : rgb(19, 109, 161);
+} 
+#_12 {
+    background-color: rgb(29, 125, 180);
+} 
+#_11 {
+    background-color: rgb(43, 145, 204);
+} 
+#_10 {
+    background-color: rgb(72, 171, 228);
+} 
+#_9 {
+    background-color: rgb(116, 195, 240);
+} 
+#_8 {
+    background-color:  rgba(176, 219, 245);
+} 
+#_7 {
+    background-color:  rgb(15, 126, 15);
+} 
+#_6 {
+    background-color:  rosybrown;
+} 
+#_5 {
+    background-color:  rgb(202, 142, 142);
+} 
+#_4 {
+    background-color: rgb(209, 122, 122);
+} 
+#_3 {
+    background-color:  rgb(221, 107, 107);
+} 
+#_2 {
+    background-color: rgb(216, 73, 73);
+} 
+#_1 {
+    background-color: rgb(212, 56, 56);
+} 
+#_0 {
+    background-color:  rgb(212, 15, 15);
+} 
