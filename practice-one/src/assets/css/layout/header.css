@@ -1,0 +1,17 @@
+.hero {
+    background: url("/practice-one/src/assets/images/Image.png") no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px var(--clr-shadow); 
+    /* background-color: lightgray; */
+    border : 1px solid var(--clr-ntrl-max);
+    height: 962px;
+
+}
+
+.overlay {
+    height: 962px;
+    width: 100vw;
+    background: var(--clr-linear);
+    position: fixed;
+    z-index: 0;
+}
