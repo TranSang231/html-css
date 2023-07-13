@@ -1,0 +1,23 @@
+.search-bar .search-question {
+    width: 297px;
+    height: 49px;
+}
+
+.search-question .question {
+    display: flex;
+    align-items: flex-start;
+}
+
+.oval-icon {
+    padding-right: 23px  ;
+}
+
+.search-line {
+    color: var(--clr-ntrl-min);
+    width: 297px;
+    height: 28.2px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid var(--clr-ntrl-min);
+    padding: 0px;
+}
