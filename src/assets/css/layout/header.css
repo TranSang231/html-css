@@ -1,5 +1,5 @@
 .hero {
-    background: url("/src/assets/images/Image.png") no-repeat;
+    background: url("/assets/images/Image.png") no-repeat;
     background-size: cover;
     box-shadow: 0px 4px 4px 0px var(--clr-shadow); 
     /* background-color: lightgray; */
