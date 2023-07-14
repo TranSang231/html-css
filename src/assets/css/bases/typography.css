@@ -57,10 +57,9 @@ span {
 }
 
 
-
 @font-face {
     font-family: "Lato-Black";
-    src: url("/assets/fonts/Lato-Light.ttf") format("truetype");
-    font-weight: normal;
+    src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
+    line-height: normal;
     font-style: normal;
 }

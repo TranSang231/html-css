@@ -28,6 +28,7 @@
 }
 
 .hero-header {
+    color: var(--clr-ntrl-min);
     font-size: 50px;
     width: 619px ;   
     padding-top: 176px;
@@ -43,6 +44,7 @@
 }
 
 .search-bar {
+    color: var(--clr-ntrl-min);
     display: flex;
     padding-top: 58px;
     padding-left: 13vw;
