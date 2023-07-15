@@ -1,19 +1,17 @@
 .benefits-section {
-    position: relative;
-    top: -218px;
-    left: 7.4%;
+  position: relative;
+  top: -218px;
+  left:  7.4%;
 }
-
 .benefits-section .benefits-header {
-    color: #000;
-    padding-top: 93px;
-    padding-left: 99px;
+  color: var(--clr-ntrl-max);
+  padding-top:  93px;
+  padding-left: 99px;
 }
-
 .benefits-section .benefits-content {
-    display: flex;
-    width: 88%;
-    justify-content: space-between;
-    margin-top: 120px;   
-    margin-left: 100px;
+  display: flex;
+  width: 88%;
+  justify-content: space-between;
+  margin-top:  120px;   
+  margin-left: 100px;
 }
