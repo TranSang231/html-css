@@ -8,6 +8,6 @@
 }
 .overlay {
     height: 962px;
-    width:  100vw;
+    width:  100%;
     background: var(--clr-linear);
 }
