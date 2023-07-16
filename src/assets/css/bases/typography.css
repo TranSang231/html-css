@@ -21,13 +21,6 @@ h1 {
     font-weight: var(--fw-semibold) ;
 }
 
-h2 {
-    font-family: 'Lato-Black';
-    font-size: 50px;
-    line-height: normal;
-    font-weight: var(--fw-bold);
-}
-
 h3 {
     font-family: 'Lato-Black';
     font-size: 35px;
@@ -56,6 +49,12 @@ span {
     font-weight: var(--fw-semibold);
 }
 
+figcaption {
+    font-family: 'Lato-Black';
+    font-size: 50px;
+    line-height: normal;
+    font-weight: var(--fw-bold);
+}
 
 @font-face {
     font-family: "Lato-Black";

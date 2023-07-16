@@ -1,0 +1,7 @@
+.detail {
+    color: var(--clr-secondary-lt);
+    text-transform: uppercase;
+}
+.detail img[alt="arrow"] {
+margin: auto 0px auto 26px;
+}

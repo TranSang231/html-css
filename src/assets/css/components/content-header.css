@@ -1,0 +1,11 @@
+.inspired-header {
+    margin-bottom: 37.5px;
+}
+
+.inspired-header::after {
+    content: "";
+    display: block;
+    width: 252px;
+    margin-top: 8.5px;
+    border-bottom: 2px solid var(--clr-secondary-lt);   
+}

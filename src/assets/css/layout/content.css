@@ -3,3 +3,7 @@
     height: 655px;
     background-color: var(--clr-ntrl-min); 
 }
+
+.inspired-section {
+    margin: 0 88px;
+}
