@@ -1,0 +1,27 @@
+.pref-feat-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1277px;
+    min-height: 784px;
+    margin: 131px auto 0 auto;
+}
+
+.pref-feat-article {
+    max-height: 354px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pref-feat-article img {
+    max-width: 612px;
+}
+
+.pref-feat-article .article-content {
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 50px;
+
+}
