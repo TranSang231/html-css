@@ -1,8 +1,8 @@
 .hero .nav {
-    display: flex;
-    justify-content: space-between;
-    height: 31px;
-    padding: 3vw 12vw 0vw 13vw;
+  display: flex;
+  justify-content: space-between;
+  height: 31px;
+  padding: 3vw 12vw 0vw 13vw;
 }
 .nav .nav-bar {
   display: flex;
@@ -10,7 +10,7 @@
 }
 .nav .nav-item {
   margin: auto 0;
-  padding-left: 5.7vw ;
+  padding-left: 5.7vw;
 }
 .nav-item a {
   font-size: 18px;
@@ -19,20 +19,19 @@
 .nav-item a:hover {
   font-size: 18px;
   color: var(--clr-primary-lt);
-
 }
 
 .hero-header {
   color: var(--clr-ntrl-min);
   font-size: 50px;
-  width: 619px ;   
+  width: 619px;
   padding-top: 176px;
   padding-left: 13vw;
   text-shadow: 0px 4px 4px 0px var(--clr-shadow);
 }
 .header-support {
   width: 546px;
-  padding-top:  22px;
+  padding-top: 22px;
   padding-left: 13vw;
   color: var(--clr-ntrl-min);
 }
@@ -40,7 +39,7 @@
 .search-bar {
   color: var(--clr-ntrl-min);
   display: flex;
-  padding-top:  58px;
+  padding-top: 58px;
   padding-left: 13vw;
 }
 .search-bar .search-question:first-child {

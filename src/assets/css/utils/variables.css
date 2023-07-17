@@ -3,32 +3,31 @@
 \*------------------------------------*/
 
 :root {
-    /* font */
-      --primary-font: "Lato";
-      --fw-bold:     700;
-      --fw-semibold: 500;
-      --fw-normal:   400;
-    
-    /* primary brand color - graylight - */
-      --clr-primary-lt:  #BFC0C5; 
-      --clr-primary-ltr: #D8D8D8;
+  /* font */
+  --primary-font: "Lato";
+  --fw-bold: 700;
+  --fw-semibold: 500;
+  --fw-normal: 400;
 
-    /* secondary brand color bluelight */
-      --clr-secondary-lt: #006DFE;
-      --clr-second-ltr:   #1B7DFF; 
- 
-    /* thirty brand color bluedark */
-      --clr-thirty-dk:  #102746;
-      --clr-thirty-dkr:  #0E1D28;
+  /* primary brand color - graylight - */
+  --clr-primary-lt: #bfc0c5;
+  --clr-primary-ltr: #d8d8d8;
 
-    /* neutrals */
-      --clr-ntrl-min: #ffffff;
-      --clr-ntrl-max: #000000;
+  /* secondary brand color bluelight */
+  --clr-secondary-lt: #006dfe;
+  --clr-second-ltr: #1b7dff;
 
-    /* shadow color */
-      --clr-shadow: rgba(0,0,0,0.25);
-    
-    /* linear gradient */
-      --clr-linear: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%);  
+  /* thirty brand color bluedark */
+  --clr-thirty-dk: #102746;
+  --clr-thirty-dkr: #0e1d28;
 
+  /* neutrals */
+  --clr-ntrl-min: #ffffff;
+  --clr-ntrl-max: #000000;
+
+  /* shadow color */
+  --clr-shadow: rgba(0, 0, 0, 0.25);
+
+  /* linear gradient */
+  --clr-linear: linear-gradient(180deg, rgba(53, 66, 103, 0) 0%, #151824 100%);
 }
