@@ -24,3 +24,7 @@
   justify-content: space-around;
   padding: 0 50px;
 }
+
+.article-content .content-title {
+  width: 400px;
+}
