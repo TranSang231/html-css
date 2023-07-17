@@ -17,16 +17,15 @@
 .place-article .wrap-image{
     position: relative;
     background-size: cover;
-    /* background-image: url(/assets/images/nagoya.png); */
-    width: 392px;
+    width: 100%;
     height: 377px;
 }
 
-.place-article .wrap-image image::before {
-    max-width: 392px;
-    display: block;
-    object-fit: contain;
+.place-article .wrap-image .image {
+    width: 100%;
+    height: 100%;
 }
+
 
 .place-article .overlay-image {
     color: var(--clr-ntrl-min);
