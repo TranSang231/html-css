@@ -3,12 +3,15 @@
   width: 26%;
   height: 280px;
 }
+
 .card-item .card-header {
   margin-top: 37px;
 }
+
 .card-item .card-description {
   margin-top: 26px;
 }
+
 .card-item .card-detail {
   display: flex;
   position: absolute;
@@ -18,6 +21,7 @@
   color: var(--clr-secondary-lt);
   text-transform: uppercase;
 }
+
 .card-detail img[alt="arrow"] {
   margin: auto 0px auto 26px;
 }
