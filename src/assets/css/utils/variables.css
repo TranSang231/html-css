@@ -29,7 +29,6 @@
       --clr-shadow: rgba(0,0,0,0.25);
     
     /* linear gradient */
-      --clr-linear: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%);
-    
+      --clr-linear: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%);  
 
 }
