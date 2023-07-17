@@ -6,7 +6,7 @@
     height: 962px;
 
 }
-.overlay {
+.hero .overlay {
     height: 962px;
     width:  100%;
     background: var(--clr-linear);

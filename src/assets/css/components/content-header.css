@@ -1,8 +1,8 @@
-.inspired-header {
+.content-header {
     margin-bottom: 37.5px;
 }
 
-.inspired-header::after {
+.content-header::after {
     content: "";
     display: block;
     width: 252px;

@@ -10,15 +10,15 @@
   gap: 10px;
 }
 
-.wrap-image {
+.inspired-content .wrap-image {
   position: relative;
 }
-.wrap-image img {
+.inspired-content .wrap-image img {
     max-width:  100%;
     max-height: 100%;
     display: block;
 }
-.overlay-image {
+.inspired-content .overlay-image {
     background: rgba(21, 24, 36, 0.40);  
     position: absolute;
     z-index: 1;
@@ -27,7 +27,7 @@
     bottom: 0;
     left:   0;
 }
-.wrap-image .image-sub {
+.inspired-content .wrap-image .sub-image {
   color: var(--clr-ntrl-min);
   position: absolute;
   bottom: 27px;
