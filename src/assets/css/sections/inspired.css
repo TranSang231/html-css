@@ -1,0 +1,38 @@
+.inspired-section div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.inspired-section .inspired-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.wrap-image {
+  position: relative;
+}
+
+.wrap-image img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.overlay-image {
+  background: rgba(21, 24, 36, 0.4);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.wrap-image .image-sub {
+  color: var(--clr-ntrl-min);
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+}

@@ -3,3 +3,8 @@
   height: 655px;
   background-color: var(--clr-ntrl-min);
 }
+
+.inspired-section {
+  max-width: 1264px;
+  margin: 0 auto;
+}

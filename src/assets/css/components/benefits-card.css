@@ -12,16 +12,10 @@
   margin-top: 26px;
 }
 
-.card-item .card-detail {
+.card-item .detail {
   display: flex;
   position: absolute;
   left: 0;
   bottom: 0;
   width: fit-content;
-  color: var(--clr-secondary-lt);
-  text-transform: uppercase;
-}
-
-.card-detail img[alt="arrow"] {
-  margin: auto 0px auto 26px;
 }

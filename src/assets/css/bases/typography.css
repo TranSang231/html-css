@@ -45,6 +45,13 @@ span {
   line-height: 24px;
 }
 
+figcaption {
+  font-family: "Lato-Black";
+  font-size: 50px;
+  line-height: normal;
+  font-weight: var(--fw-bold);
+}
+
 @font-face {
   font-family: "Lato-Black";
   src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
