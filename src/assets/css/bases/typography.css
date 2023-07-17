@@ -16,18 +16,21 @@ h1 {
   font-weight: var(--fw-semibold);
   line-height: normal;
 }
+
 h3 {
   font-family: "Lato-Black";
   font-size: 35px;
   font-weight: var(--fw-semibold);
   line-height: normal;
 }
+
 h4 {
   font-family: "Lato-Black";
   font-size: 30px;
   font-weight: var(--fw-semibold);
   line-height: 40px;
 }
+
 h6 {
   font-family: "Lato-Black";
   font-size: 18px;
