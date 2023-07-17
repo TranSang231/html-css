@@ -7,11 +7,11 @@
   align-items: flex-start;
 }
 .question .oval-icon {
-  padding-right: 23px  ;
+  padding-right: 23px;
 }
 .search-question .search-line {
   color: var(--clr-ntrl-min);
-  width:   297px;
+  width: 297px;
   height: 28.2px;
   background: transparent;
   border-bottom: 3px solid var(--clr-ntrl-min);
