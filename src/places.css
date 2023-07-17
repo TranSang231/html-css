@@ -17,9 +17,15 @@
 .place-article .wrap-image{
     position: relative;
     background-size: cover;
-    background-image: url(/assets/images/nagoya.png);
+    /* background-image: url(/assets/images/nagoya.png); */
     width: 392px;
     height: 377px;
+}
+
+.place-article .wrap-image image::before {
+    max-width: 392px;
+    display: block;
+    object-fit: contain;
 }
 
 .place-article .overlay-image {
