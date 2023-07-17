@@ -1,64 +1,60 @@
 p {
-    font-family: 'Lato-Black';
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: var(--fw-normal);
-    color: var(--clr-ntrl-max);
+  font-family: "Lato-Black";
+  font-size: 16px;
+  font-weight: var(--fw-normal);
+  line-height: 24px;
+  color: var(--clr-ntrl-max);
 }
 
 a {
-    text-decoration: none;
-}
-
-nav a:hover {
-    color:  var(--clr-primary-lt);
+  text-decoration: none;
 }
 
 h1 {
-    font-family: 'Lato-Black';
-    font-size: 50px;
-    line-height: normal;
-    font-weight: var(--fw-semibold) ;
+  font-family: "Lato-Black";
+  font-size: 50px;
+  font-weight: var(--fw-semibold);
+  line-height: normal;
 }
 
 h3 {
-    font-family: 'Lato-Black';
-    font-size: 35px;
-    line-height: normal;
-    font-weight: var(--fw-semibold);
+  font-family: "Lato-Black";
+  font-size: 35px;
+  font-weight: var(--fw-semibold);
+  line-height: normal;
 }
 
 h4 {
-    font-family: 'Lato-Black';
-    font-size: 30px;
-    line-height: 40px;
-    font-weight: var(--fw-semibold);
+  font-family: "Lato-Black";
+  font-size: 30px;
+  font-weight: var(--fw-semibold);
+  line-height: 40px;
 }
 
 h6 {
-    font-family: 'Lato-Black';
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: var(--fw-semibold) ;
+  font-family: "Lato-Black";
+  font-size: 18px;
+  font-weight: var(--fw-semibold);
+  line-height: 24px;
 }
 
 span {
-    font-family: 'Lato';
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: var(--fw-semibold);
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: var(--fw-semibold);
+  line-height: 24px;
 }
 
 figcaption {
-    font-family: 'Lato-Black';
-    font-size: 50px;
-    line-height: normal;
-    font-weight: var(--fw-bold);
+  font-family: "Lato-Black";
+  font-size: 50px;
+  line-height: normal;
+  font-weight: var(--fw-bold);
 }
 
 @font-face {
-    font-family: "Lato-Black";
-    src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
-    line-height: normal;
-    font-style: normal;
+  font-family: "Lato-Black";
+  src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  line-height: normal;
 }
