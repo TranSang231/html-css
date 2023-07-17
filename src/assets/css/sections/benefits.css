@@ -1,16 +1,18 @@
 .benefits-section {
   position: relative;
   top: -218px;
-  left:  7.4%;
+  left: 7.4%;
 }
+
 .benefits-section .benefits-header {
-    padding-top: 93px;
-    padding-left: 99px;
+  padding-top: 93px;
+  padding-left: 99px;
 }
+
 .benefits-section .benefits-content {
   display: flex;
   width: 88%;
   justify-content: space-between;
-  margin-top:  120px;   
+  margin-top: 120px;
   margin-left: 100px;
 }
