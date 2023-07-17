@@ -1,18 +1,18 @@
 .benefits-content .card-item {
   position: relative;
-  width:    26%;
+  width: 26%;
   height: 280px;
 }
-.card-item  .card-header {
+.card-item .card-header {
   margin-top: 37px;
 }
-.card-item  .card-description {
+.card-item .card-description {
   margin-top: 26px;
 }
-.card-item  .card-detail {
+.card-item .card-detail {
   display: flex;
   position: absolute;
-  left:   0;
+  left: 0;
   bottom: 0;
   width: fit-content;
   color: var(--clr-secondary-lt);

@@ -9,9 +9,6 @@ p {
 a {
   text-decoration: none;
 }
-nav a:hover {
-  color: var(--clr-primary-lt);
-}
 
 h1 {
   font-family: "Lato-Black";
