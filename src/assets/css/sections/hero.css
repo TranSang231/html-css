@@ -5,6 +5,11 @@
   padding: 3vw 12vw 0vw 13vw;
 }
 
+.nav .nav-logo img {
+  width: 82px;
+  height: 31px;
+}
+
 .nav .nav-bar {
   display: flex;
   justify-content: space-between;

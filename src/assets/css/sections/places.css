@@ -1,0 +1,10 @@
+.places-section {
+  max-width: 1280px;
+  margin: 108px auto 144px auto;
+}
+
+.places-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 52px;
+}

@@ -17,29 +17,23 @@ h1 {
   line-height: normal;
 }
 
-h3 {
+h2 {
   font-family: "Lato-Black";
   font-size: 35px;
   font-weight: var(--fw-semibold);
   line-height: normal;
 }
 
-h4 {
+h3 {
   font-family: "Lato-Black";
   font-size: 30px;
   font-weight: var(--fw-semibold);
   line-height: 40px;
 }
 
-h6 {
-  font-family: "Lato-Black";
-  font-size: 18px;
-  font-weight: var(--fw-semibold);
-  line-height: 24px;
-}
-
+h3.card-header, h3.header-image, h4,
 span {
-  font-family: "Lato";
+  font-family: "Lato-Black";
   font-size: 18px;
   font-weight: var(--fw-semibold);
   line-height: 24px;
@@ -57,5 +51,6 @@ figcaption {
   src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
   font-style: normal;
   line-height: normal;
+  font-display: swap;
 }
 

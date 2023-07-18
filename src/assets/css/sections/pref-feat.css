@@ -8,13 +8,18 @@
 }
 
 .pref-feat-article {
-  max-height: 354px;
   display: flex;
   justify-content: space-between;
 }
 
-.pref-feat-article img {
-  max-width: 612px;
+.pref img {
+  width: 607px;
+  height: 364px;
+}
+
+.feat img {
+  width: 597px;
+  height: 354px;
 }
 
 .pref-feat-article .article-content {
@@ -24,3 +29,8 @@
   justify-content: space-around;
   padding: 0 50px;
 }
+
+.article-content .content-title {
+  width: 400px;
+}
+
