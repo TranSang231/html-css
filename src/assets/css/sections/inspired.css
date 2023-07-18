@@ -14,11 +14,11 @@
   position: relative;
 }
 
-.inspired-content .type1 {
+.inspired-content .wrap-image-large {
   max-height: 354px;
 }
 
-.inspired-content .type2 {
+.inspired-content .wrap-image-small {
   max-height: 283px;
 }
 

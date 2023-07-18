@@ -16,6 +16,7 @@
 }
 
 .nav .nav-item {
+  list-style-type: none;
   margin: auto 0;
   padding-left: 5.7vw;
 }

@@ -3,12 +3,12 @@
   height: 49px;
 }
 
-.search-question .question {
+.search-question .question-wrap {
   display: flex;
   align-items: flex-start;
 }
 
-.question .oval-icon {
+.question-wrap .oval-icon {
   width: 20px;
   height: 20px;
   padding-right: 23px;
