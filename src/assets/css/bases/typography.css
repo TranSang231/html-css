@@ -57,5 +57,6 @@ figcaption {
   src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
   font-style: normal;
   line-height: normal;
+  font-display: swap;
 }
 
