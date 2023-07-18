@@ -4,6 +4,11 @@
   height: 280px;
 }
 
+.benefits-content .card-item > img {
+  max-width: 66px;
+  max-height: 66px;
+}
+
 .card-item .card-header {
   margin-top: 37px;
 }

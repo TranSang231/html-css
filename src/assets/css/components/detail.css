@@ -4,5 +4,7 @@
 }
 
 .detail img[alt="arrow"] {
+  width: 33px;
+  height: 8px;
   margin: auto 0px auto 26px;
 }

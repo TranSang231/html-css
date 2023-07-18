@@ -37,11 +37,15 @@
   display: flex;
 
   & .like {
+    width: 16px;
+    height: 15px;
     padding-right: 14px;
     padding-left: 4px;
   }
 
   & .comment {
+    width: 14px;
+    height: 14px;
     padding-right: 25px;
     padding-left: 9px;
   }
