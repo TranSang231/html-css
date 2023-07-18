@@ -1,7 +1,7 @@
 .hero {
   background: url("/assets/images/bg-hero.webp") no-repeat;
   background-size: cover;
-  box-shadow: 0px 4px 4px 0px var(--clr-shadow);
+  box-shadow: 0px 4px 4px 0px var(--clr-shadow-dk);
   border: 1px solid var(--clr-ntrl-max);
   height: 962px;
 }
