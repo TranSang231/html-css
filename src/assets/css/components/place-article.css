@@ -5,7 +5,7 @@
 .place-article .wrap-image {
   position: relative;
   background-size: cover;
-  width: 100%;
+  width: 386px;
   height: 377px;
 }
 
@@ -20,7 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--clr--shadow-dst);
+  /* background-color: var(--clr--shadow-dst); */
   position: absolute;
   z-index: 1;
   bottom: 0;
@@ -35,6 +35,7 @@
 
 .overlay-image .like-cmt {
   display: flex;
+  align-items: center;
 
   & .like {
     width: 16px;
