@@ -31,15 +31,9 @@ h3 {
   line-height: 40px;
 }
 
-h3.card-header {
-  font-family: "Lato-Black";
-  font-size: 18px;
-  font-weight: var(--fw-semibold);
-  line-height: 24px;
-}
-
+h3.card-header, h3.header-image, h4,
 span {
-  font-family: "Lato";
+  font-family: "Lato-Black";
   font-size: 18px;
   font-weight: var(--fw-semibold);
   line-height: 24px;
