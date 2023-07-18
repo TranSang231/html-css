@@ -20,7 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(21, 24, 36, 0.6);
+  background-color: var(--clr--shadow-dst);
   position: absolute;
   z-index: 1;
   bottom: 0;
@@ -31,21 +31,19 @@
   & .header-image {
     padding-left: 25px;
   }
-
 }
 
 .overlay-image .like-cmt {
-  display: flex; 
-  
+  display: flex;
+
   & .like {
     padding-right: 14px;
     padding-left: 4px;
   }
-  
+
   & .comment {
     padding-right: 25px;
     padding-left: 9px;
-
   }
 }
 
