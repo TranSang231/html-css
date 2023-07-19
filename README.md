@@ -59,14 +59,7 @@ git clone https://github.com/TranSang231/html-css.git
 ```
 git checkout practice-one
 ```
-- Step 03: Install packages:
-```
-npm install
-```
-- Step 04: Finally run with:
-```
-npm start
-```
+- Step 03: Open index.html
 ## Deploy vercel:
 - Step 01: Setting Vercel CLI:
 ```
