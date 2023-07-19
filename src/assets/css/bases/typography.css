@@ -31,7 +31,9 @@ h3 {
   line-height: 40px;
 }
 
-h3.card-header, h3.header-image, h4,
+h3.card-header,
+h3.header-image,
+h4,
 span {
   font-family: "Lato-Black";
   font-size: 18px;
@@ -53,4 +55,3 @@ figcaption {
   line-height: normal;
   font-display: swap;
 }
-
