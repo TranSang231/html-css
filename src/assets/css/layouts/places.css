@@ -25,7 +25,7 @@
   height: 100%;
 }
 
-.place-article .overlay-image {
+.place-article .overlay {
   color: var(--clr-ntrl-min);
   text-transform: uppercase;
   align-items: center;
@@ -71,5 +71,3 @@
   width: fit-content;
   padding: 12px 19px 11px 19px;
 }
-
-

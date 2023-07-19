@@ -32,17 +32,13 @@ span {
   font-size: 18px;
 }
 
-figcaption {
-  font-family: "Lato-Bold";
-  font-size: 50px;
-}
-
 label {
   font-family: "Lato-Regular";
   font-size: 18px;
 }
 
 li {
+  list-style-type: none;
   font-family: "Lato-Regular";
   font-size: 16px;
 }

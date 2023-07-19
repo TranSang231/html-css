@@ -30,11 +30,13 @@
   height: 100%;
 }
 
-.inspired-content .wrap-image .overlay-image {
-  background: var(--clr--shadow-dkr);
+.inspired-content .wrap-image .overlay {
+  background: var(--clr-shadow-dkr);
 }
 
 .wrap-image .image-sub {
+  font-family: "Lato-Bold";
+  font-size: 50px;
   color: var(--clr-ntrl-min);
   position: absolute;
   bottom: 27px;
