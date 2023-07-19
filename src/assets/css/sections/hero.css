@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   height: 31px;
-  padding: 3vw 12vw 0vw 13vw;
+  padding: 42px 167px 0px 191px ;
 }
 
 .nav .nav-logo img {
@@ -18,7 +18,7 @@
 .nav .nav-item {
   list-style-type: none;
   margin: auto 0;
-  padding-left: 5.7vw;
+  margin-left: 82px;
 }
 
 .nav-item a {
@@ -35,15 +35,15 @@
   color: var(--clr-ntrl-min);
   font-size: 50px;
   width: 619px;
-  padding-top: 176px;
-  padding-left: 13vw;
+  margin-top: 176px;
+  margin-left: 191px;
   text-shadow: 0px 4px 4px 0px var(--clr-shadow);
 }
 
 .header-support {
   width: 546px;
   padding-top: 22px;
-  padding-left: 13vw;
+  padding-left: 191px;
   color: var(--clr-ntrl-min);
 }
 
@@ -51,7 +51,7 @@
   color: var(--clr-ntrl-min);
   display: flex;
   padding-top: 58px;
-  padding-left: 13vw;
+  padding-left: 191px;
 }
 
 .search-bar .search-question:first-child {

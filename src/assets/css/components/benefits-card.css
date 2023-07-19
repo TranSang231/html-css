@@ -19,9 +19,7 @@
 }
 
 .card-item .detail {
-  display: flex;
   position: absolute;
   left: 0;
   bottom: 0;
-  width: fit-content;
 }

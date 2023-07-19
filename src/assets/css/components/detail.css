@@ -1,6 +1,9 @@
 .detail {
+  width: fit-content;
   color: var(--clr-secondary-lt);
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .detail img[alt="arrow"] {

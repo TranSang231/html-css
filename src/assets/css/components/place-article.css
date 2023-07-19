@@ -27,29 +27,29 @@
   right: 0;
   left: 0;
   top: 85%;
+}
 
-  & .header-image {
-    padding-left: 25px;
-  }
+.place-article .overlay-image .header-image {
+  padding-left: 25px;
 }
 
 .overlay-image .like-cmt {
   display: flex;
   align-items: center;
+}
 
-  & .like {
-    width: 16px;
-    height: 15px;
-    padding-right: 14px;
-    padding-left: 4px;
-  }
+.overlay-image .like-cmt .like {
+  width: 16px;
+  height: 15px;
+  padding-right: 14px;
+  padding-left: 4px;
+}
 
-  & .comment {
-    width: 14px;
-    height: 14px;
-    padding-right: 25px;
-    padding-left: 9px;
-  }
+.overlay-image .like-cmt .comment {
+  width: 14px;
+  height: 14px;
+  padding-right: 25px;
+  padding-left: 9px;
 }
 
 .place-article .description {
