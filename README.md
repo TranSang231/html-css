@@ -53,30 +53,30 @@
 ## Getting started
 - Step 01: Clone repository with HTTPS:
 ```
-`git clone https://github.com/TranSang231/html-css.git`
+git clone https://github.com/TranSang231/html-css.git
 ```
 - Step 02: Change to branch practice-one
 ```
-`git checkout practice-one`
+git checkout practice-one
 ```
 - Step 03: Install packages:
 ```
-`npm install`
+npm install
 ```
 - Step 04: Finally run with:
 ```
-`npm start`
+npm start
 ```
 ## Deploy vercel:
 - Step 01: Setting Vercel CLI:
 ```
-`npm install -g vercel`
+npm install -g vercel
 ```
 - Step 02: Deploy application to Vercel:
 ```
-`vercel --prod`
+vercel --prod
 ```
 - Step 03: Access domains:
 ```
-`https://practice-one-pearl.vercel.app/`
+https://practice-one-pearl.vercel.app/
 ```
