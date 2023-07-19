@@ -1,23 +1,16 @@
 .pref-feat-section {
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
   max-width: 1277px;
   min-height: 784px;
   margin: 131px auto 0 auto;
 }
 
-.pref-feat-article {
-  display: flex;
-  justify-content: space-between;
-}
-
-.pref img {
+.pref .article-img {
   width: 607px;
   height: 364px;
 }
 
-.feat img {
+.feat .article-img {
   width: 597px;
   height: 354px;
 }

@@ -1,6 +1,9 @@
-.inspired-section div:first-child {
-  display: flex;
-  justify-content: space-between;
+.inspired-section {
+  max-width: 1264px;
+  margin: 0 auto;
+}
+
+.inspired-section .inspired-header {
   align-items: baseline;
 }
 
@@ -29,12 +32,6 @@
 
 .inspired-content .wrap-image .overlay-image {
   background: var(--clr--shadow-dkr);
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 
 .wrap-image .image-sub {

@@ -1,0 +1,39 @@
+.header {
+  margin-bottom: 37.5px;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  width: 252px;
+  margin-top: 8.5px;
+  border-bottom: 2px solid var(--clr-secondary-lt);
+}
+
+.view-more {
+  width: fit-content;
+  color: var(--clr-secondary-lt);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.view-more .view-more-icon {
+  width: 33px;
+  height: 8px;
+  margin: auto 0px auto 26px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay-image {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
