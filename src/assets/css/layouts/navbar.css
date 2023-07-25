@@ -1,0 +1,141 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  min-width: 320px;
+  min-height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+/* navbar-heading responsive */
+.navbar-heading {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: 2.4rem;
+  letter-spacing: 2.487px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-heading {
+    margin-left: 31px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .navbar-heading {
+    margin-left: 167px;
+    font-size: 3.6rem;
+    letter-spacing: 1.997px;
+  }
+}
+
+.dropdown-link {
+  color: var(--ntrl-min-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 133.33%;
+  letter-spacing: 0.998px;
+}
+
+/* nav-button responsive */
+.nav-button {
+  background-color: transparent;
+  color: var(--ntrl-min-color);
+  letter-spacing: 0.8px;
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-button {
+    border: 2px solid var(--ntrl-min-color);
+    width: 148px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .nav-button {
+    width: 180px;
+    height: 48px;
+    margin-right: 140px;
+    font-size: 1.6rem;
+  }
+}
+
+/* responsive for moblie */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navbar-dropdown {
+    margin-right: 16px;
+  }
+
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+
+  .navbar-dropdown:hover .dropdown-list {
+    display: block;
+  }
+
+  .dropdown-item {
+    width: 100vw;
+    height: 8vw;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-button {
+    border: 0;
+    padding: 0;
+  }
+}
+
+/* reponsive for tablet */
+@media screen and (min-width: 768px) {
+  .navbar {
+    height: 104px;
+  }
+
+  .dropdown-image {
+    display: none;
+  }
+
+  .dropdown-item:last-child {
+    margin-left: -3px;
+  }
+
+  .dropdown-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+/* reponsive for desktop */
+@media screen and (min-width: 1440px) {
+  .navbar {
+    height: 136px;
+    padding-bottom: 20px;
+  }
+
+  .dropdown-list {
+    gap: 45px;
+  }
+
+  .dropdown-item:last-child {
+    margin-left: -17px;
+  }
+
+  .dropdown-link {
+    font-size: 1.8rem;
+  }
+}
