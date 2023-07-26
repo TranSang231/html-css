@@ -89,7 +89,7 @@
     height: 104px;
   }
 
-  .navbar-heading {
+  .navbar-brand {
     margin-left: 3.1rem;
   }
 
@@ -135,11 +135,11 @@
 /* reponsive for desktop */
 @media screen and (min-width: 1440px) {
   .navbar {
-    height: 136px;
+    height: 156px;
     padding-bottom: 2rem;
   }
 
-  .navbar-heading {
+  .navbar-brand {
     margin-left: 16.7rem;
     font-size: 3.6rem;
     letter-spacing: 1.997px;
