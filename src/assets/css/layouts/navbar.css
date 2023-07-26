@@ -1,8 +1,6 @@
 .navbar {
   position: fixed;
-  width: 100%;
-  min-width: 320px;
-  min-height: 56px;
+  min-height: 56px;  
   background-color: var(--secondary-color);
   padding: 0;
 }
