@@ -13,66 +13,81 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
-    <nav class="navbar container-fluid">
-      <a class="navbar-brand text-uppercase">Hofmann</a>
-      <div class="navbar-dropdown">
-        <img
-          class="dropdown-image d-md-none"
-          src="./assets/icons/menu-icon.svg"
-          alt=""
-        />
-        <ul
-          class="dropdown-list d-md-flex justify-content-md-center align-items-md-center"
+    <header class="header container-fluid">
+      <nav class="navbar text-uppercase">
+        <a href="" class="navbar-brand">Hofmann</a>
+        <input type="checkbox" name="" id="check" />
+        <div
+          href=""
+          class="navbar-toggler d-flex justify-content-center align-items-center border-0 d-md-none"
         >
-          <li
-            class="nav-item d-flex justify-content-center align-items-center text-center"
-          >
-            <a class="nav-link text-uppercase" href="">Mission</a>
+          <div class="bar"></div>
+        </div>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a href="" class="nav-link">mission</a>
           </li>
-          <li
-            class="nav-item d-flex justify-content-center align-items-center text-center"
-          >
-            <a class="nav-link text-uppercase" href="">Services</a>
+          <li class="nav-item">
+            <a href="" class="nav-link">services</a>
           </li>
-          <li
-            class="nav-item d-flex justify-content-center align-items-center text-center"
-          >
-            <a class="nav-link text-uppercase" href="">About</a>
+          <li class="nav-item">
+            <a href="" class="nav-link">about</a>
           </li>
-          <li
-            class="nav-item d-flex justify-content-center align-items-center text-center"
-          >
-            <button class="button nav-button">Take A Tour</button>
+          <li class="nav-item">
+            <button class="button nav-link nav-button">take a tour</button>
           </li>
         </ul>
-      </div>
-    </nav>
-    <header class="header container-fluid">
-      <div class="header-main">
-        <h2 class="heading header-heading">
-          Choosing The Right Boutique Hotel For You
-        </h2>
-        <p class="text header-desc">
-          How To Fly A Private Jet On Your Next Trip
-        </p>
+      </nav>
+      <div class="header-main row justify-content-center align-items-center">
+        <div class="wrapper text-center">
+          <h2 class="header-heading display-5">
+            Choosing The Right Boutique Hotel For You
+          </h2>
+          <p class="header-desc h3">
+            How To Fly A Private Jet On Your Next Trip
+          </p>
 
-        <form class="header-form" action="" method="get" id="header-form">
-          <label class="form-field">
-            <input type="email" value="Your Email" />
-          </label>
-        </form>
-        <button class="button header-button" id="header-form">Find Now</button>
+          <form
+            class="header-form row justify-content-center"
+            action=""
+            method="get"
+            id="header-form"
+          >
+            <label class="form-label" for="email"></label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Your Email"
+            />
+            <button class="button header-button" id="header-form" type="submit">
+              Find Now
+            </button>
+          </form>
 
-        <div class="icon-wrapper">
-          <a class="icon-link" href="#!">
-            <img class="icon-image" src="" alt="" />
-          </a>
-          <a class="icon-link" href="#!">
-            <img class="icon-image" src="" alt="" />
-          </a>
-          <a class="icon-link" href="#!">
-            <img class="icon-image" src="" alt="" />
-          </a>
+          <div class="d-flex justify-content-center">
+            <a class="icon-link" href="#!">
+              <img
+                class="icon-image img-fluid"
+                src="./assets/icons/plane-icon.svg"
+                alt="Plane"
+              />
+            </a>
+            <a class="icon-link" href="#!">
+              <img
+                class="icon-image img-fluid"
+                src="./assets/icons/wallet-icon.svg"
+                alt="Wallet"
+              />
+            </a>
+            <a class="icon-link" href="#!">
+              <img
+                class="icon-image img-fluid"
+                src="./assets/icons/case-icon.svg"
+                alt="Case"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </header>

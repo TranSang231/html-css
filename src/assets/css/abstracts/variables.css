@@ -1,8 +1,8 @@
 :root {
-    --primary-color : #EBCB80;
-    --secondary-color : #4B4B4B; 
-    --thirty-color : rgba(75, 75, 75, 0.5); 
-    --fourty-color : #e0be6f;
-    --ntrl-min-color : #fff; 
+  --primary-color: #ebcb80;
+  --secondary-color: #4b4b4b;
+  --thirty-color: rgba(75, 75, 75, 0.5);
+  --fourty-color: rgba(224, 190, 111, 0.6);
+  --ntrl-min-color: #fff;
+  --ntrl-max-color: #000;
 }
-
