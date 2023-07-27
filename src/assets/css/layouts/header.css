@@ -1,9 +1,4 @@
-.header {
-  padding: 0;
-}
-
 .header-main {
-  margin: 0;
   height: 460px;
   background-image: url("../../images/header-bg.png"),
     radial-gradient(circle, #ebca80, #d1af66, #b7954c, #bd9b52, #846419);
@@ -13,33 +8,19 @@
   background-position: center;
 }
 
-.header-main .wrapper {
-  max-width: 230px;
-}
-
 .header-heading {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-.header-desc {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
+  width: 210px;
 }
 
 .header-form .form-control {
   width: 190px;
   height: 32px;
   border: 1px solid var(--secondary-color);
-  margin-bottom: 2rem;
-  padding: 0 1.5rem;
-  font-size: 1.2rem;
 }
 
 .header-button {
   background-color: transparent;
   border: 2px solid var(--secondary-color);
-  margin-bottom: 30px;
 }
 
 .header-button:hover {
@@ -53,7 +34,6 @@
 .icon-link {
   width: 50px;
   height: 50px;
-  margin: 10px;
 }
 
 .icon-image {
@@ -62,8 +42,8 @@
 
 @media screen and (max-width: 767px) {
   .header-button {
-    width: 19rem;
-    height: 3.2rem;
+    width: 190px;
+    height: 32px;
   }
 }
 
@@ -72,30 +52,18 @@
     height: 566px;
   }
 
-  .header-main .wrapper {
-    max-width: 500px;
-  }
-
   .header-heading {
-    font-size: 3.2rem;
-    margin-bottom: 1.3rem;
-  }
-
-  .header-desc {
-    margin-bottom: 2rem;
+    width: 450px;
   }
 
   .header-form .form-control {
     width: 228px;
     height: 40px;
-    margin-right: 1.6rem;
-    padding: 0 1.6rem;
   }
 
   .icon-link {
     width: 64px;
     height: 64px;
-    margin: 20px 38px;
   }
 }
 
@@ -104,31 +72,17 @@
     height: 768px;
   }
 
-  .header-main .wrapper {
-    max-width: 800px;
-  }
-
   .header-heading {
-    font-size: 4.4rem;
-    margin-bottom: 2.1rem;
-  }
-
-  .header-desc {
-    font-size: 1.6rem;
-    margin-bottom: 3.6rem;
+    width: 1000px;
   }
 
   .header-form .form-control {
     width: 270px;
     height: 48px;
-    margin-right: 1.8rem;
-    font-size: 1.6rem;
-    padding: 0 1.8rem;
   }
 
   .icon-link {
     width: 80px;
     height: 80px;
-    margin: 30px;
   }
 }

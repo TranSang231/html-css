@@ -1,13 +1,9 @@
 .button {
   width: 140px;
   height: 32px;
-  font-size: 1.1rem;
+  font-size: 11px;
   border-radius: 50px;
   text-transform: uppercase;
-}
-
-.button:hover {
-  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -20,6 +16,6 @@
   .button {
     width: 198px;
     height: 48px;
-    font-size: 1.6rem;
+    font-size: 16px;
   }
 }

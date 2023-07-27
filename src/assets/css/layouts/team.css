@@ -1,0 +1,43 @@
+.team-main {
+  max-width: 530px;
+}
+
+.team-member {
+  width: 270px;
+}
+
+.member-avatar {
+  width: 48px;
+  height: 48px;
+}
+
+.team-desc {
+  width: 200px;
+  max-width: 260px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-main {
+    max-width: 800px;
+  }
+
+  .member-avatar {
+    width: 62px;
+    height: 62px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .team-main {
+    max-width: 1300px;
+  }
+
+  .team-member {
+    width: 360px;
+  }
+
+  .member-avatar {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,8 +1,50 @@
-@font-face {
+html,
+body {
+  font-family: "Roboto";
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.heading {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--secondary-color);
+}
+
+.text-md {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html,
+  body {
     font-family: "Roboto";
-    src: url("../../fonts/Roboto-Regular.ttf");
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .heading {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .text-md {
+    font-size: 18px;
+  }
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Regular.ttf");
 }
 @font-face {
-    font-family: "Lucida Grande";
-    src: url("../../fonts/Lucida-Grande-Regular-Font.ttf");
+  font-family: "Lucida Grande";
+  src: url("../../fonts/Lucida-Grande-Regular-Font.ttf");
 }
