@@ -1,8 +1,27 @@
-/* @import url("../../node_modules/bootstrap/dist/css/bootstrap-theme.css"); */
-/* @import url("../../node_modules/bootstrap/dist/css/bootstrap-theme.css.map"); */
-/* @import url("../../node_modules/bootstrap/dist/css/bootstrap-theme.min.css"); */
-/* @import url("../../node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map"); */
-/* @import url("../../node_modules/bootstrap/dist/css/bootstrap.css"); */
-/* @import url("../../node_modules/bootstrap/dist/css/bootstrap.css.map"); */
-/* @import url("../../node_modules/bootstrap/dist/css/bootstrap.min.css"); */
-/* @import url("../../node_modules/bootstrap/dist/css/bootstrap.min.css.map"); */
+@media (min-width: 768px) {
+  .ms-md-31 {
+    margin-left: 31px;
+  }
+
+  .me-md-24 {
+    margin-right: 24px;
+  }
+
+  .gap-md-30 {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .ms-xxl-150 {
+    margin-left: 150px;
+  }
+
+  .me-xxl-138 {
+    margin-right: 138px;
+  }
+
+  .gap-xxl-44 {
+    gap: 44px;
+  }
+}
