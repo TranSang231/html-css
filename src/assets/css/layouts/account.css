@@ -1,0 +1,60 @@
+.account {
+    background: url("../../images/account-bg.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.account-form {
+    background-color: var(--secondary-color);
+    width: 263px;
+    height: 312px;
+}
+
+.account-heading {
+    color: var(--ntrl-min-color);
+}
+
+.account-form .form-title {
+    font-family: "Lucida Grande";
+    color: var(--primary-color);
+}
+
+.account-form .form-main {
+    width: 220px;
+}
+
+.account-form .form-control {
+    height: 32px;
+}
+
+.account-form .text-signin {
+    color: var(--primary-color);
+}
+
+@media screen and (min-width: 768px) {
+    .account-form {
+        background-color: var(--secondary-color);
+        width: 279px;
+        height: 325px;
+    }
+
+    .account-form .form-control {
+        height: 36px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .account-form {
+        background-color: var(--secondary-color);
+        width: 360px;
+        height: 384px;
+    }
+
+    .account-form .form-main {
+        width: 256px;
+    }
+
+    .form-main .form-control {
+        font-size: 14px;
+    }
+}

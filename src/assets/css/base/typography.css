@@ -3,12 +3,12 @@ body {
   font-family: "Roboto";
   font-size: 11px;
   line-height: 16px;
+  color: var(--secondary-color);
 }
 
 .heading {
   font-size: 20px;
   line-height: 24px;
-  color: var(--secondary-color);
 }
 
 .text-md {
@@ -23,6 +23,7 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+
   html,
   body {
     font-family: "Roboto";
@@ -44,6 +45,7 @@ body {
   font-family: "Roboto";
   src: url("../../fonts/Roboto-Regular.ttf");
 }
+
 @font-face {
   font-family: "Lucida Grande";
   src: url("../../fonts/Lucida-Grande-Regular-Font.ttf");
