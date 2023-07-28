@@ -1,0 +1,60 @@
+.contact-social img {
+    width: 15px;
+    height: 15px;
+}
+
+.contact .heading {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.contact-form {
+    padding-bottom: 45px;
+}
+
+@media screen and (max-width: 767.99px) {
+    .contact .container {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 1439.99px) {
+    .contact-form .button {
+        width: 112px;
+        height: 25px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact-method .phone-number,
+    .contact-social {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contact-form {
+        padding: 40px;
+        border: 2px solid #E6E6E6;
+        box-shadow: 0px 0px 4px 4px #E6E6E6;
+    }
+
+    .contact-form .button {
+        margin-top: 24px;
+    }
+
+    .contact-method .phone-number {
+        width: 150px;
+    }
+
+    .contact-social {
+        width: 200px;
+    }
+
+    .contact-social img {
+        width: 30px;
+        height: 30px;
+    }
+}
