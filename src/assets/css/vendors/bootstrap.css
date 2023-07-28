@@ -10,6 +10,23 @@
   margin: 10px;
 }
 
+.my-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mt-18 {
+  margin-top: 18px;
+}
+
+.mt-25 {
+  margin-top: 25px
+}
+
+.mt-37 {
+  margin-top: 37px;
+}
+
 .mt-50 {
   margin-top: 50px;
 }
@@ -32,6 +49,10 @@
 
 .mb-36 {
   margin-bottom: 36px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 .mb-70 {
@@ -84,6 +105,7 @@
     margin-right: 38px;
     margin-left: 38px;
   }
+
   .gap-md-30 {
     gap: 30px;
   }
@@ -116,6 +138,10 @@
 
   .mb-xxl-71 {
     margin-bottom: 71px;
+  }
+
+  .mb-xxl-85 {
+    margin-bottom: 85px;
   }
 
   .mb-xxl-100 {
