@@ -194,7 +194,7 @@
         <li class="text-md"><a class="text-decoration-none" href="#!">New Raven</a></li>
       </ul>
       <ul class="first-place d-flex flex-wrap gap-2 gap-md-3 gap-xxl-4 justify-content-center mt-25 mt-md-20 mt-xxl-27
-        ">
+          ">
         <li class="wrap-image">
           <img class="place-image img-fluid" srcset="./assets/images/place1.png 2x" alt="Sea in San Francisco">
         </li>
@@ -219,10 +219,10 @@
     <!-- end places section -->
 
     <!-- begin account section -->
-    <section class="account d-flex flex-column align-items-center pt-50 pt-md-40 pb-42 pb-xxl-50 pt-xxl-70">
+    <section class="account d-flex flex-column align-items-center pt-50 pt-md-40 pb-42 pb-md-25 pb-xxl-37 pt-xxl-70">
       <h2 class="heading account-heading text-center mb-30 mb-xxl-40">Create An Account</h2>
 
-      <form class="account-form d-flex flex-column justify-content-center align-items-center rounded-3">
+      <form class="account-form d-flex flex-column justify-content-center align-items-center rounded-3 mb-15">
         <h3 class="form-title text-md text-uppercase text-center">sign up</h3>
         <div class="form-main">
           <label for="email" class="form-label"></label>
@@ -238,7 +238,124 @@
     </section>
     <!-- end account section -->
 
+    <!-- begin contact section -->
+    <section class="contact pt-50 pb-22 pb-md-70 pt-xxl-85 pb-xxl-80">
+      <h2 class="heading text-center mb-40 mb-md-20 mb-xxl-65 ">Contact Us</h2>
+
+      <div class="container d-md-flex p-0">
+        <form class="contact-form row col-md col-xxl-5 order-xxl-2 ms-xxl-65 me-xxl-24 px-xxl-60 py-xxl-40">
+          <div class="col ps-0">
+            <label for="name" class="form-label mb-xxl-18">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Letha Terry">
+          </div>
+
+          <div class="col ps-0">
+            <label for="email" class="form-label  mb-xxl-18">Email:</label>
+            <input type="text" class="form-control" id="email" placeholder="letha.terry@ya">
+          </div>
+
+          <div class="ps-0 mt-9 mt-xxl-15">
+            <label for="text-area" class="mb-xxl-20">Message:</label>
+            <textarea id="text-area" class="message form-control"></textarea>
+          </div>
+
+          <button class="button primary-button mx-auto">submit</button>
+        </form>
+
+        <div class="contact-method mb-23 col-md-3 col-xxl-3 order-xxl-1 mb-md-0 ps-md-13 ps-xxl-92">
+          <h3 class="text-md contact-title mt-6 mb-6 mb-md-13 mb-xxl-24">Get In Touch</h3>
+          <p class="mb-10 mb-xxl-21 d-flex">
+            <img src="./assets/icons/location.svg" alt="">
+            <span class="ps-4 ps-xxl-15">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</span>
+          </p>
+          <p class="mb-8 mb-xxl-25 d-flex">
+            <img src="./assets/icons/mail.svg" alt="">
+            <span class="ps-4 ps-xxl-10">contact@hofmannui.net</span>
+          </p>
+          <p class="phone-number mb-4 d-flex">
+            <img src="./assets/icons/phone.svg" alt="">
+            <span class=" ps-4 ps-xxl-10">793-891-7938, 512-915-5628, 952-775-6021</span>
+          </p>
+        </div>
+
+        <div class="contact-more col-md-4 col-xxl-3 order-xxl-3 pb-30 ps-md-20 ps-xxl-0 pe-xxl-60">
+          <div class="contact-credits mb-17 mb-xxl-40">
+            <h3 class="contact-title text-md mb-15 mt-xxl-6 mb-xxl-6">Credits</h3>
+            <p class="contact-text">In order to discuss the general function of the logo, we must firstly identify and
+              define the environment where this
+              will have to fulfill its function.</p>
+          </div>
+
+          <div class="contact-social">
+            <h3 class="text-md mb-15 mb-xxl-33">Follow</h3>
+            <div>
+              <a class="me-20" href=""><img src="./assets/icons/pinterest.svg" alt=""></a>
+              <a class="me-20" href=""><img src="./assets/icons/linkedin.svg" alt=""></a>
+              <a class="me-20" href=""><img src="./assets/icons/google.svg" alt=""></a>
+              <a class="me-20" href=""><img src="./assets/icons/twitter.svg" alt=""></a>
+              <a class="me-20" href=""><img src="./assets/icons/square-facebook.svg" alt=""></a>
+              <a class="me-20" href=""><img src="./assets/icons/square-instagram.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact section -->
   </main>
+
+  <!-- begin footer -->
+  <footer class="footer pt-32 pt-md-20 pt-xxl-52 pb-xxl-15">
+    <div class="wrapper-footer position-relative mx-auto">
+      <div class="footer-top d-flex flex-wrap justify-content-between d-grid  ">
+        <div class="contact-us col-6 col-md-4">
+          <h3 class="title text-md text-uppercase mb-15 mb-xxl-25">Contact us</h3>
+          <div class="contact-method d-md-flex">
+            <p class="color-gray-white col-md-7 col-xxl-4">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+            <p class="color-gray-white ps-xxl-55">+235 793-891-7938
+              <br>contact@hofmannui.net
+            </p>
+          </div>
+        </div>
+
+        <div class="follow-us col-6 col-md-4 col-xxl-3 ps-6 ps-md-70 ps-xxl-90">
+          <h3 class="title text-md text-uppercase mb-20">follow us</h3>
+          <div class="icons-social">
+            <img class=" me-20" src="./assets/icons/pinterest.svg" alt="">
+            <img class=" me-20" src="./assets/icons/twitter.svg" alt="">
+            <img clase=" me-20" src="./assets/icons/square-facebook.svg" alt="">
+          </div>
+        </div>
+
+        <div class="about-us col col-md-4 col-xxl-5 mt-34 mt-md-0 ps-md-19 ps-xxl-85">
+          <h3 class="title text-md text-uppercase mb-15">about us</h3>
+          <p class="color-gray-white">Hoffman UI Kit was made to help you quickly create beautiful layouts of responsive
+            websites.</p>
+        </div>
+      </div>
+
+      <div class="base-line mb-15 mt-18 mb-md-6 mt-md-14 mb-xxl-13 mt-xxl-39"></div>
+
+      <div class="footer-bottom">
+        <ul class="footer-nav d-flex justify-content-around mx-md-auto pb-68 pb-md-44">
+          <li class="text-uppercase">Home</li>
+          <li class="text-uppercase">Services</li>
+          <li class="text-uppercase">Team</li>
+          <li class="text-uppercase">Portfolio</li>
+          <li class="text-uppercase">Contact</li>
+        </ul>
+      </div>
+      <div class="position-absolute container d-flex justify-content-between align-items-baseline px-md-0">
+        <p class="copy-right color-gray-white">© 2016 Hofmann UI Kit</p>
+        <div class="to-top">
+          <span class="color-gray-white">To the Top</span>
+          <a class="btn to-top-btn p-7 p-xxl-12" href="#" role="button">
+            <img class="d-block" src="./assets/icons/up-arrow.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
 </body>
 
 </html>

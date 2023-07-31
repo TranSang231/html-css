@@ -58,6 +58,10 @@
         height: 384px;
     }
 
+    .account-heading {
+        letter-spacing: -1.6px;
+    }
+
     .account-form .form-main {
         width: 256px;
     }
