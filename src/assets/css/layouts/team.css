@@ -1,9 +1,10 @@
 .team-main {
-  max-width: 530px;
+  width: 275px;
+
 }
 
 .team-member {
-  width: 270px;
+  width: 275px;
 }
 
 .member-avatar {
@@ -11,14 +12,14 @@
   height: 48px;
 }
 
-.team-desc {
-  width: 200px;
-  max-width: 260px;
-}
 
 @media screen and (min-width: 768px) {
   .team-main {
-    max-width: 800px;
+    width: 596px;
+  }
+
+  .team-member {
+    width: 285px;
   }
 
   .member-avatar {
@@ -29,7 +30,7 @@
 
 @media screen and (min-width: 1440px) {
   .team-main {
-    max-width: 1300px;
+    width: 1136px;
   }
 
   .team-member {

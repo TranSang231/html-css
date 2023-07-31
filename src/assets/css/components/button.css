@@ -4,7 +4,13 @@
   font-size: 11px;
   border-radius: 50px;
   text-transform: uppercase;
+  letter-spacing: 0.8px;
   border: 0;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .primary-button {
@@ -12,7 +18,7 @@
 }
 
 .primary-button:hover {
-  background-color: var(--ntrl-min-color);
+  background-color: var(--fourty-color);
 }
 
 .secondary-button {
@@ -20,7 +26,7 @@
 }
 
 .secondary-button:hover {
-  background-color: var(--ntrl-min-color);
+  background-color: var(--thirty-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -34,5 +40,6 @@
     width: 198px;
     height: 48px;
     font-size: 16px;
+    letter-spacing: 1px;
   }
 }

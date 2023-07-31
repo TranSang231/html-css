@@ -1,32 +1,52 @@
+.contact .heading {
+    letter-spacing: -0.8px;
+}
+
 .contact-social img {
     width: 15px;
     height: 15px;
 }
 
 .contact .heading {
-    padding-top: 50px;
-    padding-bottom: 40px;
+    /* padding-top: 50px; */
+    /* padding-bottom: 40px; */
 }
 
 .contact-form {
     padding-bottom: 45px;
 }
 
-@media screen and (max-width: 767.99px) {
+.contact-form .message {
+    height: 64px;
+}
+
+@media screen and (max-width: 767px) {
     .contact .container {
-        max-width: 250px;
+        width: 250px;
+    }
+
+    .contact-form {
+        width: 230px;
+    }
+
+    .contact-method .phone-number {
+        width: 180px;
     }
 }
 
-@media screen and (max-width: 1439.99px) {
+@media screen and (max-width: 1439px) {
     .contact-form .button {
         width: 112px;
         height: 25px;
-        margin-top: 15px;
+        margin-top: 19px;
     }
 }
 
 @media screen and (min-width: 768px) {
+
+    .contact-form {
+        padding: 16px 43px 0 25px;
+    }
 
     .contact-method .phone-number,
     .contact-social {
@@ -35,10 +55,21 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+    .contact .heading {
+        /* padding-top: 90px; */
+        /* padding-bottom: 65px; */
+    }
+
     .contact-form {
-        padding: 40px;
+        /* padding: 40px; */
         border: 2px solid #E6E6E6;
         box-shadow: 0px 0px 4px 4px #E6E6E6;
+    }
+
+
+    .contact-form .message {
+        height: 120px;
     }
 
     .contact-form .button {
