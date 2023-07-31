@@ -36,6 +36,14 @@
   color: var(--secondary-color);
 }
 
+.pricing .card-title {
+  letter-spacing: 0.667px;
+}
+
+.pricing .card-duration {
+  letter-spacing: 0.667px;
+}
+
 .pricing .price {
   font-size: 36px;
 }
@@ -46,15 +54,38 @@
 }
 
 @media screen and (min-width: 768px) {
+  .pricing-header {
+    letter-spacing: -0.8px;
+  }
+
   .pricing .card {
     height: 280px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .card-container {
+    transform: translateX(15px);
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .pricing-header {
+    letter-spacing: -1.6px;
+  }
+
   .pricing .card {
     width: 360px;
     height: 396px;
+  }
+
+  .pricing .card-title {
+    letter-spacing: 1px;
+  }
+
+  .pricing .card-duration {
+    letter-spacing: 1px;
   }
 
   .dola {

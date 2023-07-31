@@ -1,5 +1,4 @@
 .header-main {
-  height: 460px;
   background-image: url("../../images/header-bg.png"),
     radial-gradient(circle, #ebca80, #d1af66, #b7954c, #bd9b52, #846419);
   background-blend-mode: hard-light;
@@ -8,19 +7,26 @@
   background-position: center;
 }
 
-.header-heading {
+.header-main .wrapper {
   width: 210px;
+}
+
+.header-heading {
+  letter-spacing: -0.8px;
 }
 
 .header-form .form-control {
   width: 190px;
   height: 32px;
+  font-size: 12px;
   border: 1px solid var(--secondary-color);
+  padding: 9px 9px 10px 16px;
 }
 
 .header-button {
   background-color: transparent;
   border: 2px solid var(--secondary-color);
+  padding: 6px 12px 6px 6px;
 }
 
 .header-button:hover {
@@ -31,13 +37,18 @@
   background-color: var(--fourty-color);
 }
 
-.icon-link {
+.header-icon .icon-link {
   width: 50px;
   height: 50px;
 }
 
-.icon-image {
-  height: inherit;
+.header-icon .icon-image {
+  width: 100%;
+}
+
+.header-icon .icon-link:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 767px) {
@@ -48,12 +59,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header-main {
-    height: 566px;
-  }
-
-  .header-heading {
-    width: 450px;
+  .header-main .wrapper {
+    width: 408px;
   }
 
   .header-form .form-control {
@@ -61,29 +68,51 @@
     height: 40px;
   }
 
-  .icon-link {
+  .header-form .form-control {
+    padding: 9px 9px 10px 15px;
+  }
+
+  .header-button {
+    padding: 6px 12px 6px 14px;
+  }
+
+  .header-icon .icon-link {
     width: 64px;
     height: 64px;
+  }
+
+  .header-icon.icon-image {
+    width: auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .header-main {
-    height: 768px;
+  .header-main .wrapper {
+    width: 810px;
   }
 
   .header-heading {
-    width: 1000px;
+    letter-spacing: -1.6px;
   }
 
   .header-form .form-control {
+    font-size: 16px;
     width: 270px;
     height: 48px;
+    transform: translateX(-2px);
+    padding: 6px 12px 6px 17px;
   }
 
-  .icon-link {
+  .header-button {
+    transform: translateX(-2px)
+  }
+
+  .header-icon .icon-link {
     width: 80px;
     height: 80px;
   }
-}
 
+  .header-icon .icon-image {
+    width: 100%;
+  }
+}

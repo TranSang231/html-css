@@ -11,25 +11,33 @@
 }
 
 .account-heading {
+    letter-spacing: -0.5px;
     color: var(--ntrl-min-color);
 }
 
 .account-form .form-title {
     font-family: "Lucida Grande";
+    letter-spacing: 0.8px;
+    transform: translate(-4px, -5px);
     color: var(--primary-color);
 }
 
 .account-form .form-main {
     width: 220px;
+    letter-spacing: 0.11px;
+    transform: translateY(-5px);
 }
 
 .account-form .form-control {
     height: 32px;
+    padding: 1px 6px 6px 13px
 }
 
 .account-form .text-signin {
     color: var(--primary-color);
 }
+
+.account-form .text-signin:active {}
 
 @media screen and (min-width: 768px) {
     .account-form {
