@@ -68,13 +68,13 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-container {
     transform: translateX(15px);
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .pricing .heading {
     letter-spacing: -1.6px;
   }

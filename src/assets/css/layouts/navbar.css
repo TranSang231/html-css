@@ -126,7 +126,7 @@ header .navbar {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   header .navbar {
     height: 156px;
   }

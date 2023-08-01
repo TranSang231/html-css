@@ -1,7 +1,5 @@
 .header-main {
-  background-image: url("../../images/header-bg.webp"),
-    radial-gradient(circle, #ebca80, #d1af66, #b7954c, #bd9b52, #846419);
-  background-blend-mode: hard-light;
+  background-image: url("../../images/header-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -80,7 +78,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .header-main .wrapper {
     width: 810px;
   }

@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .account-form {
         background-color: var(--secondary-color);
         width: 360px;

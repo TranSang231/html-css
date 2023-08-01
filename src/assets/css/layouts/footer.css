@@ -18,8 +18,9 @@
     letter-spacing: 0.8px;
 }
 
-.follow-us .icons-social .wrap-image {
-    width: 20px;
+.follow-us .icons-social .wrap-image .bi {
+    font-size: 20px;
+    color: var(--ntrl-min-color);
 }
 
 .wrapper-footer .base-line {
@@ -58,17 +59,17 @@
         bottom: -16px;
     }
 
-    .to-top .to-top-btn:hover {    
+    .to-top .to-top-btn:hover {
         background: var(--fourty-color);
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .wrapper-footer {
         width: 1190px;
     }
 
-    .follow-us .icons-social .wrap-image {
+    .follow-us .icons-social .wrap-image .bi {
         width: 30px;
     }
 }
