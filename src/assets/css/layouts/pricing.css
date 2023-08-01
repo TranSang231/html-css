@@ -2,6 +2,10 @@
   background-color: var(--secondary-color);
 }
 
+.pricing .heading {
+  letter-spacing: normal;
+}
+
 .pricing .card {
   width: 220px;
   height: 248px;
@@ -54,7 +58,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .pricing-header {
+  .pricing .heading {
     letter-spacing: -0.8px;
   }
 
@@ -71,7 +75,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .pricing-header {
+  .pricing .heading {
     letter-spacing: -1.6px;
   }
 

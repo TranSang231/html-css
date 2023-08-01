@@ -1,6 +1,5 @@
 .team-main {
   width: 275px;
-
 }
 
 .team-member {
@@ -10,10 +9,14 @@
 .member-avatar {
   width: 48px;
   height: 48px;
+  object-fit: cover;
 }
 
-
 @media screen and (min-width: 768px) {
+  .team .heading {
+    letter-spacing: normal;
+  }
+
   .team-main {
     width: 596px;
   }
@@ -29,6 +32,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .team .heading {
+    letter-spacing: -1.6px;
+  }
+
   .team-main {
     width: 1136px;
   }

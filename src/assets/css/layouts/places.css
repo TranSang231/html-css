@@ -2,9 +2,12 @@
   max-width: 250px;
 }
 
+.places .heading {
+  letter-spacing: normal;
+}
+
 .places .wrap-image {
   width: 116px;
-  height: 116px;
 }
 
 .places-select {
@@ -18,10 +21,6 @@
   color: var(--secondary-color);
 }
 
-.place-image {
-  height: inherit;
-}
-
 @media screen and (min-width:768px) {
   .places {
     max-width: 650px;
@@ -29,7 +28,6 @@
 
   .places .wrap-image {
     width: 192px;
-    height: 192px;
   }
 }
 
@@ -38,8 +36,11 @@
     max-width: 1000px;
   }
 
+  .places .heading {
+    letter-spacing: -1.6px;
+  }
+
   .places .wrap-image {
     width: 300px;
-    height: 300px;
   }
 }

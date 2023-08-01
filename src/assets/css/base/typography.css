@@ -9,17 +9,15 @@ body {
 .heading {
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: -0.5px;
 }
 
-.text-md {
-  font-size: 12px;
-}
 
 @media screen and (min-width: 768px) {
   .heading {
     font-size: 32px;
     line-height: 36px;
-    letter-spacing: normal;
+    letter-spacing: -0.8px;
   }
 }
 
@@ -37,18 +35,16 @@ body {
     line-height: 48px;
     letter-spacing: -1.6px;
   }
-
-  .text-md {
-    font-size: 18px;
-  }
 }
 
 @font-face {
   font-family: "Roboto";
   src: url("../../fonts/Roboto-Regular.ttf");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "Lucida Grande";
   src: url("../../fonts/Lucida-Grande-Regular-Font.ttf");
+  font-display: fallback;
 }

@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta />
+  <meta name="description" content="This is the good page book hotel webpage for your trip" />
   <title>Practice two</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/css/main.css" />
@@ -15,49 +15,49 @@
   <!-- begin header section -->
   <header class="container-fluid p-0">
     <nav class="navbar position-relative text-uppercase p-0">
-      <a href="#" class="navbar-brand ms-20 ms-md-31 ms-xxl-167 mb-xxl-70 mt-xxl-45">Hofmann</a>
+      <a href="#" class="navbar-brand ms-20 ms-md-31 ms-xxl-167 mb-xxl-70 mt-xxl-45"
+        aria-label="Comeback main page">Hofmann</a>
+      <label for="check"></label>
       <input class="position-absolute top-50 end-0 translate-middle-y" type="checkbox" id="check" />
-      <div href="#!" class="navbar-toggler d-flex justify-content-center align-items-center border-0 d-md-none">
+      <div class="navbar-toggler d-flex justify-content-center align-items-center border-0 d-md-none">
         <div class="bar"></div>
       </div>
       <ul
         class="navbar-nav text-center flex-md-row align-items-md-center gap-md-30 gap-xxl-44 me-md-24 me-xxl-142 mt-xxl-44 mb-xxl-64">
-        <li><a href="#!" class="text-md nav-link">mission</a></li>
-        <li><a href="#!" class="text-md nav-link">services</a></li>
-        <li class="me-xxl-n17"><a href="#!" class="text-md nav-link">about</a></li>
+        <li><a href="#!" class="text-md nav-link" aria-label="Go to mission">mission</a></li>
+        <li><a href="#!" class="text-md nav-link" aria-label="Go to services">services</a></li>
+        <li class="me-xxl-n17"><a href="#!" class="text-md nav-link" aria-label="Go to about us">about</a></li>
         <li><button class="button nav-link nav-button">take a tour</button></li>
       </ul>
     </nav>
 
     <div class="header-main">
       <div class="wrapper d-flex flex-column justify-content-center mx-auto pe-1">
-        <h2 class="heading header-heading text-center mt-93 mt-md-135 mt-xxl-236 mb-15 mb-md-13 mb-xxl-21 me-xxl-29">
+        <h2 class="heading text-center mt-93 mt-md-135 mt-xxl-236 mb-15 mb-md-13 mb-xxl-21 me-xxl-29">
           Choosing The Right Boutique Hotel For You
         </h2>
         <p class="header-desc text-center mb-15 mb-md-20 mb-xxl-36">
           How To Fly A Private Jet On Your Next Trip
         </p>
-
         <form
           class="header-form d-flex flex-column flex-md-row align-items-center justify-content-center mb-10 mb-md-52 mb-xxl-60"
-          action="" method="get" id="header-form">
-          <label class="form-label" for="email"></label>
-          <input type="email" class="form-control mb-15 mb-md-0 me-md-16 me-xxl-18" id="email"
+          action="post" method="get" id="header-form">
+          <label class="form-label" for="email-1"></label>
+          <input type="email" class="form-control mb-15 mb-md-0 me-md-16 me-xxl-18" id="email-1"
             placeholder="Your Email" />
-          <button class="button header-button mb-30 mb-md-0" id="header-form" type="submit">
+          <button class="button header-button mb-30 mb-md-0" form="header-form" type="submit">
             Find Now
           </button>
         </form>
-
         <div class="header-icon d-flex justify-content-center gap-20 gap-md-76 gap-xxl-60 mb-98 mb-md-152 mb-xxl-215">
-          <a class="icon-link" href="#!">
-            <img class="icon-image" src="./assets/icons/plane-icon.svg" alt="Plane" />
+          <a class="icon-link ratio ratio-1x1" href="#!" aria-label="book a plan">
+            <img class="img-fluid" src="./assets/icons/plane-icon.webp" alt="Plane" />
           </a>
-          <a class="icon-link" href="#!">
-            <img class="icon-image" src="./assets/icons/wallet-icon.svg" alt="Wallet" />
+          <a class="icon-link ratio ratio-1x1" href="#!" aria-label="Wallet">
+            <img class="img-fluid" src="./assets/icons/wallet-icon.webp" alt="Wallet" />
           </a>
-          <a class="icon-link" href="#!">
-            <img class="icon-image" src="./assets/icons/case-icon.svg" alt="Case" />
+          <a class="icon-link ratio ratio-1x1" href="#!" aria-label="paymen by case">
+            <img class="img-fluid" src="./assets/icons/case-icon.webp" alt="Case" />
           </a>
         </div>
       </div>
@@ -68,12 +68,14 @@
   <main>
     <!-- begin team section -->
     <section class="team pt-48 pt-md-42 pt-xxl-55 pb-74 pb-md-52 pb-xxl-110">
+
       <h2 class=" heading text-center ms-7 ms-md-0 me-md-20 me-xxl-0 mb-15 mb-md-25 mb-xxl-53">
         Our Team
       </h2>
+
       <div class=" team-main d-flex flex-wrap justify-content-between mx-auto gx-33 gx-md-32 gx-xxl-75 ">
         <div class="team-member d-flex">
-          <img src="./assets/images/member1.png" alt="Craig Todd" class="member-avatar img-fluid" />
+          <img src="./assets/images/member1.webp" alt="Craig Todd" class="member-avatar img-fluid" />
           <div class="mt-2 mt-xxl-6 ms-21 ms-md-17 ms-xxl-16">
             <p class="text-md">Craig Todd</p>
             <p>CEO</p>
@@ -84,7 +86,7 @@
           </div>
         </div>
         <div class="team-member d-flex">
-          <img src="./assets/images/member2.png" alt="Craig Todd" class="member-avatar img-fluid" />
+          <img src="./assets/images/member2.webp" alt="Craig Todd" class="member-avatar img-fluid" />
           <div class="mt-2 mt-xxl-6 ms-21 ms-md-17 ms-xxl-16">
             <p class="text-md">Jennie Graham</p>
             <p>UX/UI Designer</p>
@@ -92,7 +94,7 @@
           </div>
         </div>
         <div class="team-member d-flex">
-          <img src="./assets/images/member3.png" alt="Craig Todd" class="member-avatar img-fluid" />
+          <img src="./assets/images/member3.webp" alt="Craig Todd" class="member-avatar img-fluid" />
           <div class="mt-2 mt-xxl-6 ms-21 ms-md-17 ms-xxl-16">
             <p class="text-md">Chase Meyer</p>
             <p>Front-end Developer</p>
@@ -100,7 +102,7 @@
           </div>
         </div>
         <div class="team-member d-flex mt-n13 mt-md-0">
-          <img src="./assets/images/member4.png" alt="Craig Todd" class="member-avatar img-fluid" />
+          <img src="./assets/images/member4.webp" alt="Craig Todd" class="member-avatar img-fluid" />
           <div class="mt-2 mt-xxl-6 ms-21 ms-md-17 ms-xxl-16">
             <p class="text-md">Vera Hopkins</p>
             <p>UX Lead</p>
@@ -108,7 +110,7 @@
           </div>
         </div>
         <div class="team-member d-flex">
-          <img src="./assets/images/member5.png" alt="Craig Todd" class="member-avatar img-fluid" />
+          <img src="./assets/images/member5.webp" alt="Craig Todd" class="member-avatar img-fluid" />
           <div class="mt-2 mt-xxl-6 ms-21 ms-md-17 ms-xxl-16">
             <p class="text-md">Eunice Wong</p>
             <p>Marketing consultant</p>
@@ -116,21 +118,23 @@
           </div>
         </div>
         <div class="team-member d-flex">
-          <img src="./assets/images/member6.png" alt="Craig Todd" class="member-avatar img-fluid" />
+          <img src="./assets/images/member6.webp" alt="Craig Todd" class="member-avatar img-fluid" />
           <div class="mt-2 mt-xxl-6 ms-21 ms-md-17 ms-xxl-16">
             <p class="text-md">Johnny Vargas</p>
             <p>Back-end Developer</p>
             <p class="pt-9">Maintain Your PC S Performance With PC Programs</p>
           </div>
         </div>
+      </div>
     </section>
     <!-- end team section -->
 
     <!-- begin pricing section -->
     <section class="pricing container-fluid pb-42 pb-md-80 pb-xxl-116 pt-52 pt-md-57 pt-xxl-70">
-      <h2 class="heading pricing-header text-center text-white mb-20 mb-md-32 mb-xxl-52">Choose
+      <h2 class="heading text-center text-white mb-20 mb-md-32 mb-xxl-52">Choose
         Your Plan
       </h2>
+
       <ul
         class="card-container d-flex flex-column flex-md-row align-items-center justify-content-center gx-24 gy-md-30">
         <li class="card primary-card text-center d-flex align-items-center ">
@@ -188,33 +192,37 @@
       </select>
 
       <ul class="places-name d-none d-md-flex text-uppercase justify-content-center gap-md-54 mt-18 mt-md-14 mt-xxl-27">
-        <li class="text-md"><a class="text-decoration-none" href="#!">San Francisco</a></li>
-        <li class="text-md"><a class="text-decoration-none" href="#!">South Liliana</a></li>
-        <li class="text-md"><a class="text-decoration-none" href="#!">Blickview</a></li>
-        <li class="text-md"><a class="text-decoration-none" href="#!">New Raven</a></li>
-      </ul>
-      <ul class="first-place d-flex flex-wrap gap-2 gap-md-3 gap-xxl-4 justify-content-center mt-25 mt-md-20 mt-xxl-27
-          ">
-        <li class="wrap-image">
-          <img class="place-image img-fluid" srcset="./assets/images/place1.png 2x" alt="Sea in San Francisco">
-        </li>
-        <li class="wrap-image">
-          <img class="place-image img-fluid" srcset="./assets/images/place2.png 2x" alt="Rocky Beach in San Francisco">
-        </li>
-        <li class="wrap-image">
-          <img class="place-image img-fluid" srcset="./assets/images/place3.png 2x" alt="Golden Gate Bridge">
-        </li>
-        <li class="wrap-image">
-          <img class="place-image img-fluid" srcset="./assets/images/place4.png 2x" alt="Edge of Golden Gate Bridge">
-        </li>
-        <li class="wrap-image">
-          <img class="place-image img-fluid" srcset="./assets/images/place5.png 2x" alt="Full view Golden Gate Bridge">
-        </li>
-        <li class="wrap-image">
-          <img class="place-image img-fluid" srcset="./assets/images/place6.png 2x" alt="Gray Golden Gate Bridge">
-        </li>
+        <li class="text-md"><a class="text-decoration-none" href="#!"
+            aria-label="See more picture about San Francisco">San Francisco</a></li>
+        <li class="text-md"><a class="text-decoration-none" href="#!"
+            aria-label="See more picture about South Liliana">South Liliana</a></li>
+        <li class="text-md"><a class="text-decoration-none" href="#!"
+            aria-label="See more picture about Blickview">Blickview</a></li>
+        <li class="text-md"><a class="text-decoration-none" href="#!" aria-label="See more picture about New Raven">New
+            Raven</a></li>
       </ul>
 
+      <ul class="place-pictures d-flex flex-wrap gap-2 gap-md-3 gap-xxl-4 justify-content-center mt-25 mt-md-20 mt-xxl-27
+          ">
+        <li class="wrap-image ratio ratio-1x1">
+          <img class="place-image img-fluid" src="./assets/images/place1.webp" alt="Sea in San Francisco">
+        </li>
+        <li class="wrap-image ratio ratio-1x1">
+          <img class="place-image img-fluid" src="./assets/images/place2.webp" alt="Rocky Beach in San Francisco">
+        </li>
+        <li class="wrap-image ratio ratio-1x1">
+          <img class="place-image img-fluid" src="./assets/images/place3.webp" alt="Golden Gate Bridge">
+        </li>
+        <li class="wrap-image ratio ratio-1x1">
+          <img class="place-image img-fluid" src="./assets/images/place4.webp" alt="Edge of Golden Gate Bridge">
+        </li>
+        <li class="wrap-image ratio ratio-1x1">
+          <img class="place-image img-fluid" src="./assets/images/place5.webp" alt="Full view Golden Gate Bridge">
+        </li>
+        <li class="wrap-image ratio ratio-1x1">
+          <img class="place-image img-fluid" src="./assets/images/place6.webp" alt="Gray Golden Gate Bridge">
+        </li>
+      </ul>
     </section>
     <!-- end places section -->
 
@@ -225,14 +233,14 @@
       <form class="account-form d-flex flex-column justify-content-center align-items-center rounded-3 mb-15">
         <h3 class="form-title text-md text-uppercase text-center">sign up</h3>
         <div class="form-main">
-          <label for="email" class="form-label"></label>
-          <input type="emai" class=" form-control" placeholder="Email">
+          <label for="email-3" class="form-label"></label>
+          <input type="email" id="email-3" class=" form-control" placeholder="Email">
           <label for="password" class="form-label"></label>
-          <input type="password" class="form-control" placeholder="Password">
-          <label for="password" class="form-label"></label>
-          <input type="password" class="form-control" placeholder="Confirm Password">
+          <input type="password" id="password" class="form-control" placeholder="Password">
+          <label for="confirm-password" class="form-label"></label>
+          <input type="password" id="confirm-password" class="form-control" placeholder="Confirm Password">
         </div>
-        <a href="#!" class="text-signin text-center my-15">Already Have an account?</a>
+        <a href="#!" class="text-signin text-center my-15" aria-label="Sign in">Already Have an account?</a>
         <button class="button primary-button">sign up</button>
       </form>
     </section>
@@ -240,41 +248,39 @@
 
     <!-- begin contact section -->
     <section class="contact pt-50 pb-22 pb-md-70 pt-xxl-85 pb-xxl-80">
-      <h2 class="heading text-center mb-40 mb-md-20 mb-xxl-65 ">Contact Us</h2>
+      <h2 class="heading contact-heading text-center mb-40 mb-md-20 mb-xxl-65 ">Contact Us</h2>
 
       <div class="container d-md-flex p-0">
-        <form class="contact-form row col-md col-xxl-5 order-xxl-2 ms-xxl-65 me-xxl-24 px-xxl-60 py-xxl-40">
+        <form
+          class="contact-form row col-md col-xxl-5 order-xxl-2 pb-45 mx-auto ms-xxl-65 me-xxl-24 px-xxl-60 py-xxl-40">
           <div class="col ps-0">
             <label for="name" class="form-label mb-xxl-18">Name:</label>
             <input type="text" class="form-control" id="name" placeholder="Letha Terry">
           </div>
-
           <div class="col ps-0">
-            <label for="email" class="form-label  mb-xxl-18">Email:</label>
-            <input type="text" class="form-control" id="email" placeholder="letha.terry@ya">
+            <label for="email-2" class="form-label  mb-xxl-18">Email:</label>
+            <input type="text" class="form-control" id="email-2" placeholder="letha.terry@ya">
           </div>
-
           <div class="ps-0 mt-9 mt-xxl-15">
             <label for="text-area" class="mb-xxl-20">Message:</label>
             <textarea id="text-area" class="message form-control"></textarea>
           </div>
-
-          <button class="button primary-button mx-auto">submit</button>
+          <button class="button primary-button mx-auto mt-19 mt-xxl-24">submit</button>
         </form>
 
         <div class="contact-method mb-23 col-md-3 col-xxl-3 order-xxl-1 mb-md-0 ps-md-13 ps-xxl-92">
           <h3 class="text-md contact-title mt-6 mb-6 mb-md-13 mb-xxl-24">Get In Touch</h3>
           <p class="mb-10 mb-xxl-21 d-flex">
-            <img src="./assets/icons/location.svg" alt="">
+            <span class="address-icon"><img class="img-fluid" src="./assets/icons/location.webp" alt="location"></span>
             <span class="ps-4 ps-xxl-15">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</span>
           </p>
           <p class="mb-8 mb-xxl-25 d-flex">
-            <img src="./assets/icons/mail.svg" alt="">
+            <span class="address-icon"><img class="img-fluid" src="./assets/icons/mail.webp" alt="mail"></span>
             <span class="ps-4 ps-xxl-10">contact@hofmannui.net</span>
           </p>
           <p class="phone-number mb-4 d-flex">
-            <img src="./assets/icons/phone.svg" alt="">
-            <span class=" ps-4 ps-xxl-10">793-891-7938, 512-915-5628, 952-775-6021</span>
+            <span class="address-icon"><img class="img-fluid" src="./assets/icons/phone.webp" alt="phone number"></span>
+            <span class="ps-4 ps-xxl-10">793-891-7938, 512-915-5628, 952-775-6021</span>
           </p>
         </div>
 
@@ -289,12 +295,24 @@
           <div class="contact-social">
             <h3 class="text-md mb-15 mb-xxl-33">Follow</h3>
             <div>
-              <a class="me-20" href=""><img src="./assets/icons/pinterest.svg" alt=""></a>
-              <a class="me-20" href=""><img src="./assets/icons/linkedin.svg" alt=""></a>
-              <a class="me-20" href=""><img src="./assets/icons/google.svg" alt=""></a>
-              <a class="me-20" href=""><img src="./assets/icons/twitter.svg" alt=""></a>
-              <a class="me-20" href=""><img src="./assets/icons/square-facebook.svg" alt=""></a>
-              <a class="me-20" href=""><img src="./assets/icons/square-instagram.svg" alt=""></a>
+              <a class="wrap-icon d-inline-block me-20" href="#!" aria-label="Go to pinterest">
+                <img class="img-fluid" src="./assets/icons/pinterest.webp" alt="pinterest">
+              </a>
+              <a class="wrap-icon d-inline-block me-20" href="#!" aria-label="Go to linkedin">
+                <img class="img-fluid" src="./assets/icons/linkedin.webp" alt="linkedin">
+              </a>
+              <a class="wrap-icon d-inline-block me-20" href="#!" aria-label="Go to google">
+                <img class="img-fluid" src="./assets/icons/google.webp" alt="google">
+              </a>
+              <a class="wrap-icon d-inline-block me-20" href="#!" aria-label="Go to twitter">
+                <img class="img-fluid" src="./assets/icons/twitter.webp" alt="twitter">
+              </a>
+              <a class="wrap-icon d-inline-block me-20" href="#!" aria-label="Go to facebook">
+                <img class="img-fluid" src="./assets/icons/square-facebook.webp" alt="facebook">
+              </a>
+              <a class="wrap-icon d-inline-block me-20" href="#!" aria-label="Go to instagram">
+                <img class="img-fluid" src="./assets/icons/square-instagram.webp" alt="instagram">
+              </a>
             </div>
           </div>
         </div>
@@ -320,9 +338,15 @@
         <div class="follow-us col-6 col-md-4 col-xxl-3 ps-6 ps-md-70 ps-xxl-90">
           <h3 class="title text-md text-uppercase mb-20">follow us</h3>
           <div class="icons-social">
-            <img class=" me-20" src="./assets/icons/pinterest.svg" alt="">
-            <img class=" me-20" src="./assets/icons/twitter.svg" alt="">
-            <img clase=" me-20" src="./assets/icons/square-facebook.svg" alt="">
+            <a href="#!" class="d-inline-block wrap-image me-20" aria-label="Go to pinterest website">
+              <img class="img-fluid" src="./assets/icons/pinterest.webp" alt="pinterest">
+            </a>
+            <a href="#!" class="d-inline-block wrap-image me-20" aria-label="Go to twitter social network">
+              <img class="img-fluid" src="./assets/icons/twitter.webp" alt="twitter">
+            </a>
+            <a href="#!" class="d-inline-block wrap-image me-20" aria-label="Go to facebook social network">
+              <img class="img-fluid" src="./assets/icons/square-facebook.webp" alt="Facebook">
+            </a>
           </div>
         </div>
 
@@ -336,20 +360,26 @@
       <div class="base-line mb-15 mt-18 mb-md-6 mt-md-14 mb-xxl-13 mt-xxl-39"></div>
 
       <div class="footer-bottom">
-        <ul class="footer-nav d-flex justify-content-around mx-md-auto pb-68 pb-md-44">
-          <li class="text-uppercase">Home</li>
-          <li class="text-uppercase">Services</li>
-          <li class="text-uppercase">Team</li>
-          <li class="text-uppercase">Portfolio</li>
-          <li class="text-uppercase">Contact</li>
+        <ul class="footer-nav navbar position-relative mx-md-auto pt-0 pb-68 pb-md-44">
+          <li class="text-uppercase"><a class="nav-link text-decoration-none" href="#" aria-label="Go to home">Home</a>
+          </li>
+          <li class="text-uppercase"><a class="nav-link text-decoration-none" href="#"
+              aria-label="Learn more about services">Services</a></li>
+          <li class="text-uppercase"><a class="nav-link text-decoration-none" href="#"
+              aria-label="understand about our team">Team</a></li>
+          <li class="text-uppercase"><a class="nav-link text-decoration-none" href="#"
+              aria-label="Go to Portfolio">Portfolio</a></li>
+          <li class="text-uppercase"><a class="nav-link text-decoration-none" href="#"
+              aria-label="contact us">Contact</a></li>
         </ul>
       </div>
+
       <div class="position-absolute container d-flex justify-content-between align-items-baseline px-md-0">
         <p class="copy-right color-gray-white">© 2016 Hofmann UI Kit</p>
         <div class="to-top">
           <span class="color-gray-white">To the Top</span>
-          <a class="btn to-top-btn p-7 p-xxl-12" href="#" role="button">
-            <img class="d-block" src="./assets/icons/up-arrow.png" alt="">
+          <a class="btn to-top-btn p-7 p-xxl-12" href="#" role="button" aria-label="Comeback top page">
+            <img class="d-block" src="./assets/icons/up-arrow.webp" alt="">
           </a>
         </div>
       </div>

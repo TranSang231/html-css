@@ -1,25 +1,24 @@
 .account {
-    background: url("../../images/account-bg.png");
+    background: url("../../images/account-bg.webp");
     background-repeat: none;
     background-size: cover;
 }
 
-.account-form {
-    background-color: var(--secondary-color);
-    width: 263px;
-    height: 312px;
+.account-heading {
+    color: var(--ntrl-min-color);
 }
 
-.account-heading {
-    letter-spacing: -0.5px;
-    color: var(--ntrl-min-color);
+.account-form {
+    background: linear-gradient(to right, var(--secondary-color), #878282);
+    width: 263px;
+    height: 312px;
 }
 
 .account-form .form-title {
     font-family: "Lucida Grande";
     letter-spacing: 0.8px;
-    transform: translate(-4px, -5px);
     color: var(--primary-color);
+    transform: translate(-4px, -5px);
 }
 
 .account-form .form-main {
@@ -28,7 +27,7 @@
     transform: translateY(-5px);
 }
 
-.account-form .form-control {
+.account-form .form-main .form-control {
     height: 32px;
     padding: 1px 6px 6px 13px
 }
@@ -37,8 +36,6 @@
     color: var(--primary-color);
 }
 
-.account-form .text-signin:active {}
-
 @media screen and (min-width: 768px) {
     .account-form {
         background-color: var(--secondary-color);
@@ -46,7 +43,7 @@
         height: 325px;
     }
 
-    .account-form .form-control {
+    .account-form .form-main .form-control {
         height: 36px;
     }
 }
@@ -58,15 +55,11 @@
         height: 384px;
     }
 
-    .account-heading {
-        letter-spacing: -1.6px;
-    }
-
     .account-form .form-main {
         width: 256px;
     }
 
-    .form-main .form-control {
+    .account-form .form-main .form-control {
         font-size: 14px;
     }
 }

@@ -1,5 +1,5 @@
 .header-main {
-  background-image: url("../../images/header-bg.png"),
+  background-image: url("../../images/header-bg.webp"),
     radial-gradient(circle, #ebca80, #d1af66, #b7954c, #bd9b52, #846419);
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   width: 210px;
 }
 
-.header-heading {
+.header-main .heading {
   letter-spacing: -0.8px;
 }
 
@@ -39,16 +39,15 @@
 
 .header-icon .icon-link {
   width: 50px;
-  height: 50px;
-}
-
-.header-icon .icon-image {
-  width: 100%;
 }
 
 .header-icon .icon-link:hover {
   transform: translateY(-20px);
   transition: 0.5s;
+}
+
+.header-icon .icon-link img {
+  object-fit: cover;
 }
 
 @media screen and (max-width: 767px) {
@@ -78,11 +77,6 @@
 
   .header-icon .icon-link {
     width: 64px;
-    height: 64px;
-  }
-
-  .header-icon.icon-image {
-    width: auto;
   }
 }
 
@@ -91,7 +85,7 @@
     width: 810px;
   }
 
-  .header-heading {
+  .header-main .heading {
     letter-spacing: -1.6px;
   }
 
@@ -109,10 +103,5 @@
 
   .header-icon .icon-link {
     width: 80px;
-    height: 80px;
-  }
-
-  .header-icon .icon-image {
-    width: 100%;
   }
 }
