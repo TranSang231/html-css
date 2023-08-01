@@ -32,17 +32,11 @@
 }
 
 .wrapper-footer div:last-child {
-    bottom: 24px;
+    bottom: -40px;
 }
 
 .to-top .to-top-btn {
     background: var(--primary-color);
-}
-
-.to-top .to-top-btn:hover {
-    background: var(--fourty-color);
-    transform: translateY(-20px);
-    transition: 0.5s;
 }
 
 .to-top-btn img {
@@ -58,6 +52,14 @@
     .footer-bottom .footer-nav {
         width: 60%;
         transform: translateY(14px)
+    }
+
+    .wrapper-footer div:last-child {
+        bottom: -16px;
+    }
+
+    .to-top .to-top-btn:hover {    
+        background: var(--fourty-color);
     }
 }
 
