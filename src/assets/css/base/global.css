@@ -3,17 +3,3 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
-
-.text-md {
-    font-size: 13px;
-}
-
-@media screen and (min-width: 1200px) {
-    .text-md {
-        font-size: 18px;
-    }
-}
-
-.color-gray-white {
-    color: #a6a6a6;
-}
