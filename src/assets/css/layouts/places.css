@@ -21,7 +21,7 @@
   color: var(--secondary-color);
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .places {
     max-width: 650px;
   }

@@ -35,7 +35,6 @@ header .navbar {
   transition: 0.5s;
 }
 
-
 .navbar-toggler .bar:before {
   transform: translateY(-8px);
 }
@@ -52,15 +51,15 @@ header .navbar {
   z-index: 1000;
 }
 
-#check:checked~.navbar-toggler .bar {
+#check:checked ~ .navbar-toggler .bar {
   background-color: transparent;
 }
 
-#check:checked~.navbar-toggler .bar::before {
+#check:checked ~ .navbar-toggler .bar::before {
   transform: translateY(0) rotate(-45deg);
 }
 
-#check:checked~.navbar-toggler .bar::after {
+#check:checked ~ .navbar-toggler .bar::after {
   transform: translateY(0) rotate(45deg);
 }
 
@@ -86,7 +85,7 @@ header .navbar {
     transition: 0.65s;
   }
 
-  #check:checked~.navbar-nav {
+  #check:checked ~ .navbar-nav {
     display: block;
   }
 

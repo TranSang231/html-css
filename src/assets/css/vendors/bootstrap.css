@@ -98,7 +98,7 @@
 }
 
 .mt-25 {
-  margin-top: 25px
+  margin-top: 25px;
 }
 
 .mt-34 {
@@ -223,7 +223,6 @@
 }
 
 @media (min-width: 768px) {
-
   /* padding */
   .pt-md-20 {
     padding-top: 20px;
@@ -447,7 +446,6 @@
 }
 
 @media (min-width: 1200px) {
-
   /* padding */
   .p-xl-12 {
     padding: 12px !important;

@@ -1,0 +1,13 @@
+.color-gray-white {
+  color: #ece9e9;
+}
+
+.text-md {
+  font-size: 13px;
+}
+
+@media screen and (min-width: 1200px) {
+  .text-md {
+    font-size: 18px;
+  }
+}
