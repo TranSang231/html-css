@@ -11,6 +11,15 @@
   font-size: 12px;
 }
 
+.contact-method .phone-contact {
+	width: 180px;
+}
+
+.contact-method .email-address,
+.phone-number {
+	color: var(--secondary-color);
+}
+
 @media screen and (max-width: 767px) {
   .contact .container {
     width: 250px;
@@ -18,10 +27,6 @@
 
   .contact-form {
     width: 230px;
-  }
-
-  .contact-method .phone-number {
-    width: 180px;
   }
 }
 
@@ -37,7 +42,7 @@
     padding: 16px 43px 0 25px;
   }
 
-  .contact-method .phone-number,
+  .contact-method .phone-contact,
   .contact-social {
     width: 120px;
   }
@@ -53,7 +58,7 @@
     height: 120px;
   }
 
-  .contact-method .phone-number {
+  .contact-method .phone-contact {
     width: 150px;
   }
 
