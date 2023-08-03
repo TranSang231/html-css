@@ -28,7 +28,6 @@
 			as="image"
 			type="image/webp"
 		/>
-		'
 		<link
 			rel="preload"
 			href="./assets/images/header-bg-320.webp"
@@ -86,19 +85,19 @@
 				<picture>
 					<source
 						media="(min-width: 1440px)"
-						srcset="/assets/images/header-bg-1440.webp"
+						srcset="./assets/images/header-bg-1440.webp"
 					/>
 					<source
 						media="(min-width: 1200px)"
-						srcset="/assets/images/header-bg-1200.webp"
+						srcset="./assets/images/header-bg-1200.webp"
 					/>
 					<source
 						media="(min-width: 768px)"
-						srcset="/assets/images/header-bg-768.webp"
+						srcset="./assets/images/header-bg-768.webp"
 					/>
 					<img
 						class="header-background position-absolute"
-						src="/assets/images/header-bg-320.webp"
+						src="./assets/images/header-bg-320.webp"
 						alt="background header"
 					/>
 				</picture>
@@ -532,20 +531,37 @@
 								>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</span
 							>
 						</p>
-						<p class="mb-8 mb-xl-25 d-flex">
+						<a
+							class="email-address text-decoration-none mb-8 mb-xl-25 d-flex"
+							href="mailto:dinhsang2313@gmail.com"
+						>
 							<span class="address-icon"
 								><i class="bi bi-envelope-fill"></i
 							></span>
 							<span class="ps-4 ps-xl-10">contact@hofmannui.net</span>
-						</p>
-						<p class="phone-number mb-4 d-flex">
+						</a>
+						<div class="phone-contact mb-4 d-flex">
 							<span class="address-icon"
 								><i class="bi bi-telephone-fill"></i
 							></span>
-							<span class="ps-4 ps-xl-10"
-								>793-891-7938, 512-915-5628, 952-775-6021</span
-							>
-						</p>
+							<span class="ps-4 ps-xl-10">
+								<a
+									class="phone-number text-decoration-none"
+									href="tel:+793-891-7938"
+									>793-891-7938</a
+								>
+								<a
+									class="phone-number text-decoration-none"
+									href="tel:+512-915-5628"
+									>512-915-5628</a
+								>
+								<a
+									class="phone-number text-decoration-none"
+									href="tel:+952-775-6021"
+									>952-775-6021</a
+								>
+							</span>
+						</div>
 					</div>
 
 					<div
@@ -627,9 +643,19 @@
 							<p class="color-gray-white col-md-7 col-xl-4">
 								2300 W Arbutus Dr Citrus Springs, FL 34434, USA
 							</p>
-							<p class="color-gray-white ps-xl-55">
-								+235 793-891-7938 <br />contact@hofmannui.net
-							</p>
+							<span>
+								<a
+									class="text-decoration-none color-gray-white ps-xl-55"
+									href="tel:+793-891-7938"
+									>+235 793-891-7938</a
+								>
+								<br />
+								<a
+									class="text-decoration-none color-gray-white ps-xl-55"
+									href="mailto:contact@hofmannui.net"
+									>contact@hofmannui.net</a
+								>
+							</span>
 						</div>
 					</div>
 
@@ -732,7 +758,11 @@
 							role="button"
 							aria-label="Comeback top page"
 						>
-							<img class="d-block" src="./assets/icons/up-arrow.webp" alt="" />
+							<img
+								class="d-block"
+								src="./assets/icons/up-arrow.webp"
+								alt="arrow to the top page"
+							/>
 						</a>
 					</div>
 				</div>
