@@ -1,615 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta
-			name="description"
-			content="This is the good page book hotel webpage for your trip"
-		/>
-		<title>Practice two</title>
-		<link rel="stylesheet" href="./assets/css/main.css" />
-	</head>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="This is the good page book hotel webpage for your trip" />
+	<title>Practice two</title>
+	<link rel="stylesheet" href="./assets/css/main.css" />
+</head>
 
 	<body>
 		<!-- begin header section -->
 		<header class="container-fluid p-0">
+
+			<!-- navigation -->
 			<nav class="navbar position-relative text-uppercase p-0">
-				<a
-					href="#"
-					class="navbar-brand ms-20 ms-md-31 ms-xl-167 mb-xl-70 mt-xl-45"
-					aria-label="Comeback main page"
-					>Hofmann</a
-				>
-				<input
-					class="position-absolute top-50 end-0 translate-middle-y"
-					type="checkbox"
-					id="check"
-					aria-label="nav button"
-				/>
-				<div
-					class="navbar-toggler d-flex justify-content-center align-items-center border-0 d-md-none"
-				>
+				<a href="#" class="navbar-brand p-0 ms-20 ms-md-31 ms-xl-167 mb-xl-70 mt-xl-45" aria-label="Comeback main page">
+					<img
+						class="img-fluid logo"
+						srcset="./assets/images/logo-medium.webp 130w,
+								   	./assets/images/logo-large.webp  184w"
+						src="./assets/images/logo-medium.webp"
+						sizes="(min-width: 1200px) 184px, 130px"
+						alt="Hoffman"/>
+				</a>
+
+				<input class="position-absolute top-50 end-0 translate-middle-y" type="checkbox" id="check" aria-label="nav button" />
+				<div class="navbar-toggler d-flex justify-content-center align-items-center border-0 d-md-none">
 					<div class="bar"></div>
 				</div>
+
 				<ul
-					class="navbar-nav text-center flex-md-row align-items-md-center gap-md-30 gap-xl-44 me-md-24 me-xl-142 mt-xl-44 mb-xl-64"
-				>
+					class="navbar-nav text-center flex-md-row align-items-md-center gap-md-30 gap-xl-44 me-md-24 me-xl-142 mt-xl-44 mb-xl-64">
 					<li>
-						<a href="#!" class="text-md nav-link" aria-label="Go to mission"
-							>mission</a
-						>
+						<a href="#!" class="text-md nav-link" aria-label="Go to mission">mission</a>
 					</li>
 					<li>
-						<a href="#!" class="text-md nav-link" aria-label="Go to services"
-							>services</a
-						>
+						<a href="#!" class="text-md nav-link" aria-label="Go to services">services</a>
 					</li>
 					<li class="me-xl-n17">
-						<a href="#!" class="text-md nav-link" aria-label="Go to about us"
-							>about</a
-						>
+						<a href="#!" class="text-md nav-link" aria-label="Go to about us">about</a>
 					</li>
 					<li>
-						<button class="button nav-link nav-button">take a tour</button>
+						<button class="primary-button nav-button nav-link">take a tour</button>
 					</li>
 				</ul>
 			</nav>
 
+			<!-- header main -->
 			<div class="header-main position-relative">
 				<picture>
 					<source
 						media="(min-width: 1440px)"
-						srcset="./assets/images/header-bg-1440.webp"
-					/>
+						srcset="./assets/images/header-bg-1440.webp"/>
 					<source
 						media="(min-width: 1200px)"
-						srcset="./assets/images/header-bg-1200.webp"
-					/>
+						srcset="./assets/images/header-bg-1200.webp"/>
 					<source
 						media="(min-width: 768px)"
-						srcset="./assets/images/header-bg-768.webp"
-					/>
+						srcset="./assets/images/header-bg-768.webp"/>
 					<img
-						class="header-background position-absolute"
+						class="background position-absolute"
 						src="./assets/images/header-bg-320.webp"
-						alt="background header"
-					/>
-				</picture>
-				<div
-					class="wrapper d-flex flex-column justify-content-center mx-auto pe-1"
-				>
-					<h2
-						class="heading text-center mt-93 mt-md-135 mt-xl-236 mb-15 mb-md-13 mb-xl-21 me-xl-29"
-					>
+						alt="background header"/>
+					</picture>
+
+					<div
+					class="container d-flex flex-column justify-content-center mx-auto pt-93 pb-98 pt-md-135 pb-md-152 pt-xl-236 pb-xl-215">
+					<h1 class="heading header-heading text-center px-20 px-md-150 mb-15 mb-md-13 mb-xl-21 me-xl-29">
 						Choosing The Right Boutique Hotel For You
-					</h2>
+					</h1>
 					<p class="header-desc text-center mb-15 mb-md-20 mb-xl-36">
 						How To Fly A Private Jet On Your Next Trip
 					</p>
 					<form
 						class="header-form d-flex flex-column flex-md-row align-items-center justify-content-center mb-10 mb-md-52 mb-xl-60"
-						action="post"
-						method="get"
-						id="header-form"
-					>
-						<label class="form-label" for="email-1"></label>
-						<input
-							type="email"
-							class="form-control mb-15 mb-md-0 me-md-16 me-xl-18"
-							id="email-1"
-							placeholder="Your Email"
-						/>
-						<button
-							class="button header-button mb-30 mb-md-0"
-							form="header-form"
-							type="submit"
-						>
+						action="post" method="get" id="header-form">
+						<input type="email" class="form-control mb-15 mb-md-0 me-md-16 me-xl-18" placeholder="Your Email"
+							aria-label="email input" />
+						<button class="primary-button header-button mb-30 mb-md-0" form="header-form" type="submit">
 							Find Now
 						</button>
 					</form>
-					<div
-						class="header-icon d-flex justify-content-center gap-20 gap-md-76 gap-xl-60 mb-98 mb-md-152 mb-xl-215"
-					>
-						<a
-							class="icon-link ratio ratio-1x1"
-							href="#!"
-							aria-label="book a plan"
-						>
-							<img
-								class="img-fluid"
-								src="./assets/icons/plane-icon.webp"
-								alt="Plane"
-							/>
-						</a>
-						<a class="icon-link ratio ratio-1x1" href="#!" aria-label="Wallet">
-							<img
-								class="img-fluid"
-								src="./assets/icons/wallet-icon.webp"
-								alt="Wallet"
-							/>
-						</a>
-						<a
-							class="icon-link ratio ratio-1x1"
-							href="#!"
-							aria-label="paymen by case"
-						>
-							<img
-								class="img-fluid"
-								src="./assets/icons/case-icon.webp"
-								alt="Case"
-							/>
-						</a>
-					</div>
+					<ul class="header-icon d-flex justify-content-center gap-20 gap-md-76 gap-xl-60">
+						<li>
+							<a class="icon-link ratio ratio-1x1" href="#!" aria-label="book a plan">
+								<img class="img-fluid"
+										 srcset="./assets/icons/plane-icon-small.webp 50w,
+														 ./assets/icons/plane-icon-medium.webp 64w,
+														 ./assets/icons/plane-icon-large.webp 80w"
+										 src="./assets/icons/plane-icon-medium.webp"
+										 sizes="(min-width: 1200px) 80px,
+										 				(min-width: 768px) 64px, 50px"
+										 alt="Plane" />
+							</a>
+						</li>
+						<li>
+							<a class="icon-link ratio ratio-1x1" href="#!" aria-label="Wallet">
+								<img class="img-fluid"
+										 srcset="./assets/icons/wallet-icon-small.webp 50w,
+										 				 ./assets/icons/wallet-icon-medium.webp 64w,
+										 				 ./assets/icons/wallet-icon-large.webp 80w"
+									 	 src="./assets/icons/wallet-icon-medium.webp"
+										 sizes="(min-width: 1200px) 80px,
+										 				(min-width: 768px) 64px, 50px"
+										alt="wallet" />
+							</a>
+						</li>
+						<li>
+							<a class="icon-link ratio ratio-1x1" href="#!" aria-label="paymen by case">
+								<img class="img-fluid"
+										 srcset="./assets/icons/case-icon-small.webp 50w,
+										 				 ./assets/icons/case-icon-medium.webp 64w,
+										 				 ./assets/icons/case-icon-large.webp 80w"
+									 	 src="./assets/icons/case-icon-medium.webp"
+										 sizes="(min-width: 1200px) 80px,
+										 				(min-width: 768px) 64px, 50px"
+										alt="case" />
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</header>
-		<!-- end header section -->
 
 		<main>
 			<!-- begin team section -->
-			<section class="team pt-48 pt-md-42 pt-xl-55 pb-74 pb-md-52 pb-xl-110">
-				<h2
-					class="heading text-center ms-7 ms-md-0 me-md-20 me-xl-0 mb-15 mb-md-25 mb-xl-53"
-				>
-					Our Team
-				</h2>
+			<section class="team pt-48 pt-md-42 pt-xl-55 pb-70 pb-md-52 pb-xl-110">
+				<div class="container">
+					<h2 class="heading text-center ms-7 ms-md-0 me-md-20 me-xl-0 mb-15 mb-md-25 mb-xl-53">
+						Our Team
+					</h2>
 
-				<div
-					class="team-main d-flex flex-wrap justify-content-between mx-auto gx-33 gx-md-32 gx-xl-75"
-				>
-					<div class="team-member d-flex">
-						<img
-							src="./assets/images/member1.webp"
-							alt="Craig Todd"
-							class="member-avatar img-fluid"
-						/>
-						<div class="mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
-							<p class="text-md">Craig Todd</p>
-							<p>CEO</p>
-							<p class="pt-9">
-								Like the majority of sales people, I visit a huge number of
-								clients and prospects every month
-							</p>
+					<div class="d-flex flex-wrap justify-content-between mx-auto gx-33 gx-md-32 gx-xl-75 px-md-65 px-xl-0">
+						<div class="team-member d-flex">
+							<div class="member-avatar ratio ratio-1x1">
+								<img
+										 srcset="./assets/images/member-1-small.webp  48w,
+														 ./assets/images/member-1-medium.webp 62w,
+														 ./assets/images/member-1-large.webp  80w"
+										 src="./assets/images/member-1-large.webp"
+										 sizes="(min-width: 1200px) 80px,
+										 				(min-width: 768px) 62px,
+														48px"
+										 alt="Craig Todd"
+										 class="img-fluid"/>
+							</div>
+							<div class="member-desc mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
+								<h3 class="text-md">Craig Todd</h3>
+								<h4>CEO</h4>
+								<p class="pt-9">
+									Like the majority of sales people, I visit a huge number of
+									clients and prospects every month
+								</p>
+							</div>
 						</div>
-					</div>
-					<div class="team-member d-flex">
-						<img
-							src="./assets/images/member2.webp"
-							alt="Jennie Graham avatar"
-							class="member-avatar img-fluid"
-						/>
-						<div class="mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
-							<p class="text-md">Jennie Graham</p>
-							<p>UX/UI Designer</p>
-							<p class="pt-9">WordPress Version 2 0 3 Review</p>
+						<div class="team-member d-flex">
+							<div class="member-avatar ratio ratio-1x1">
+								<img
+										 srcset="./assets/images/member-2-small.webp  48w,
+														 ./assets/images/member-2-medium.webp 62w,
+														 ./assets/images/member-2-large.webp  80w"
+										 src="./assets/images/member-2-large.webp"
+										 sizes="(min-width: 1200px) 80px,
+										 				(min-width: 768px) 62px,
+										 				48px"
+										 alt="Jennie Graham avatar" class="img-fluid" />
+							</div>
+							<div class="member-desc mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
+								<h3 class="text-md">Jennie Graham</h3>
+								<h4>UX/UI Designer</h4>
+								<p class="pt-9">WordPress Version 2 0 3 Review</p>
+							</div>
 						</div>
-					</div>
-					<div class="team-member d-flex">
-						<img
-							src="./assets/images/member3.webp"
-							alt="Chase Meyer avatar"
-							class="member-avatar img-fluid"
-						/>
-						<div class="mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
-							<p class="text-md">Chase Meyer</p>
-							<p>Front-end Developer</p>
-							<p class="pt-9">Search Engine Optimization And Advertising</p>
+						<div class="team-member d-flex">
+							<div class="member-avatar ratio ratio-1x1">
+							<img src="./assets/images/member-3-large.webp"
+									 srcset="./assets/images/member-3-small.webp 48w,
+													 ./assets/images/member-3-medium.webp 62w,
+													 ./assets/images/member-3-large.webp 80w"
+									 sizes="(min-width: 1200px) 80px,
+									 				(min-width: 768px) 62px,
+													48px"
+									alt="Chase Meyer avatar"
+									class="img-fluid" />
+							</div>
+							<div class="member-desc mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
+								<h3 class="text-md">Chase Meyer</h3>
+								<h4>Front-end Developer</h4>
+								<p class="pt-9">Search Engine Optimization And Advertising</p>
+							</div>
 						</div>
-					</div>
-					<div class="team-member d-flex mt-n13 mt-md-0">
-						<img
-							src="./assets/images/member4.webp"
-							alt="Vera Hopkins avatar"
-							class="member-avatar img-fluid"
-						/>
-						<div class="mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
-							<p class="text-md">Vera Hopkins</p>
-							<p>UX Lead</p>
-							<p class="pt-9">
-								Differentiate Yourself And Attract More Attention Sales And
-								Profits
-							</p>
+						<div class="team-member d-flex mt-n13 mt-md-0">
+							<div class="member-avatar ratio ratio-1x1">
+							<img
+									 srcset="./assets/images/member-4-small.webp 48w,
+													 ./assets/images/member-4-medium.webp 62w,
+													 ./assets/images/member-4-large.webp 80w"
+									 src="./assets/images/member-4-large.webp"
+									 sizes="(min-width: 1200px) 80px,
+									 				(min-width: 768px) 62px,
+									 				48px"
+									alt="Vera Hopkins avatar"
+									class="img-fluid"/>
+							</div>
+							<div class="member-desc mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
+								<h3 class="text-md">Vera Hopkins</h3>
+								<h4>UX Lead</h4>
+								<p class="pt-9">
+									Differentiate Yourself And Attract More Attention Sales And
+									Profits
+								</p>
+							</div>
 						</div>
-					</div>
-					<div class="team-member d-flex">
-						<img
-							src="./assets/images/member5.webp"
-							alt="Eunice Wong avatar"
-							class="member-avatar img-fluid"
-						/>
-						<div class="mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
-							<p class="text-md">Eunice Wong</p>
-							<p>Marketing consultant</p>
-							<p class="pt-9">
-								Advertising Internet Online Opportunities To Explore
-							</p>
+						<div class="team-member d-flex">
+							<div class="member-avatar ratio ratio-1x1">
+							<img
+									 srcset="./assets/images/member-5-small.webp 48w,
+													 ./assets/images/member-5-medium.webp 62w,
+													 ./assets/images/member-5-large.webp 80w"
+									 src="./assets/images/member-5-large.webp"
+									 sizes="(min-width: 1200px) 80px,
+									 				(min-width: 768px) 62px,
+									 				48px"
+									alt="Eunice Wong avatar"
+									class="img-fluid"/>
+							</div>
+							<div class="member-desc mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
+								<h3 class="text-md">Eunice Wong</h3>
+								<h4>Marketing consultant</h4>
+								<p class="pt-9">
+									Advertising Internet Online Opportunities To Explore
+								</p>
+							</div>
 						</div>
-					</div>
-					<div class="team-member d-flex">
-						<img
-							src="./assets/images/member6.webp"
-							alt="Johnny Vargas avatar"
-							class="member-avatar img-fluid"
-						/>
-						<div class="mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
-							<p class="text-md">Johnny Vargas</p>
-							<p>Back-end Developer</p>
-							<p class="pt-9">
-								Maintain Your PC S Performance With PC Programs
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- end team section -->
-
-			<!-- begin pricing section -->
-			<section
-				class="pricing container-fluid pb-42 pb-md-80 pb-xl-116 pt-52 pt-md-57 pt-xl-70"
-			>
-				<h2 class="heading text-center text-white mb-20 mb-md-32 mb-xl-52">
-					Choose Your Plan
-				</h2>
-
-				<ul
-					class="card-container d-flex flex-column flex-md-row align-items-center justify-content-center gx-24 gy-md-30"
-				>
-					<li class="card primary-card text-center d-flex align-items-center">
-						<h3
-							class="card-title primary-title text-md text-uppercase mt-25 mt-md-35 mt-xl-44"
-						>
-							silver
-						</h3>
-						<div class="position-relative mt-6 mt-md-21 mt-xl-32">
-							<p class="dola position-absolute">$</p>
-							<p class="price">49</p>
-						</div>
-						<p class="card-duration text-uppercase mt-12 mt-md-14 mt-xl-28">
-							Year
-						</p>
-						<p class="mt-18 mt-md-17 mt-xl-23">
-							Personal Account <br />25 GB Discspace <br />50 Uploads per day
-						</p>
-						<button class="button primary-button mt-25 mt-md-20 mt-xl-32">
-							purchase
-						</button>
-					</li>
-					<li class="card secondary-card text-center d-flex align-items-center">
-						<h3
-							class="card-title secondary-title text-md text-uppercase mt-25 mt-md-35 mt-xl-44"
-						>
-							gold
-						</h3>
-						<div class="position-relative mt-6 mt-md-21 mt-xl-32">
-							<p class="dola position-absolute">$</p>
-							<p class="price">99</p>
-						</div>
-						<p class="card-duration text-uppercase mt-12 mt-md-14 mt-xl-28">
-							Year
-						</p>
-						<p class="mt-18 mt-md-17 mt-xl-23">
-							Personal Account <br />50 GB Discspace <br />500 Uploads per day
-						</p>
-						<button
-							class="button secondary-button text-white mt-25 mt-md-20 mt-xl-32"
-						>
-							purchase
-						</button>
-					</li>
-					<li class="card thirty-card text-center d-flex align-items-center">
-						<h3
-							class="card-title primary-title text-md text-uppercase mt-25 mt-md-35 mt-xl-44"
-						>
-							platinum
-						</h3>
-						<div class="position-relative mt-6 mt-md-21 mt-xl-32">
-							<p class="dola position-absolute">$</p>
-							<p class="price">299</p>
-						</div>
-						<p class="card-duration text-uppercase mt-12 mt-md-14 mt-xl-28">
-							Year
-						</p>
-						<p class="mt-18 mt-md-17 mt-xl-23">
-							Team Account <br />500 GB Discspace <br />Unlimited Uploads per
-							day
-						</p>
-						<button class="button primary-button mt-25 mt-md-20 mt-xl-32">
-							purchase
-						</button>
-					</li>
-				</ul>
-			</section>
-			<!-- end pricing section -->
-
-			<!-- begin places section -->
-			<section class="places mx-auto pt-37 pt-md-45 pt-xl-65 pb-45 pb-xl-75">
-				<h2 class="heading text-center me-md-6 ms-xl-10">Places</h2>
-
-				<select
-					class="places-select btn rounded-pill text-uppercase d-block d-md-none mx-auto mt-18 ps-25"
-				>
-					<option class="text-md">San Francisco</option>
-					<option class="text-md">South Liliana</option>
-					<option class="text-md">Blickview</option>
-					<option class="text-md">New Raven</option>
-				</select>
-
-				<ul
-					class="places-name d-none d-md-flex text-uppercase justify-content-center gap-md-54 mt-18 mt-md-14 mt-xl-27"
-				>
-					<li class="text-md">
-						<a
-							class="text-decoration-none"
-							href="#!"
-							aria-label="See more picture about San Francisco"
-							>San Francisco</a
-						>
-					</li>
-					<li class="text-md">
-						<a
-							class="text-decoration-none"
-							href="#!"
-							aria-label="See more picture about South Liliana"
-							>South Liliana</a
-						>
-					</li>
-					<li class="text-md">
-						<a
-							class="text-decoration-none"
-							href="#!"
-							aria-label="See more picture about Blickview"
-							>Blickview</a
-						>
-					</li>
-					<li class="text-md">
-						<a
-							class="text-decoration-none"
-							href="#!"
-							aria-label="See more picture about New Raven"
-							>New Raven</a
-						>
-					</li>
-				</ul>
-
-				<ul
-					class="place-pictures d-flex flex-wrap gap-2 gap-md-3 gap-xl-4 justify-content-center mt-25 mt-md-20 mt-xl-27"
-				>
-					<li class="wrap-image ratio ratio-1x1">
-						<img src="./assets/images/place1.webp" alt="Sea in San Francisco" />
-					</li>
-					<li class="wrap-image ratio ratio-1x1">
-						<img
-							src="./assets/images/place2.webp"
-							alt="Rocky Beach in San Francisco"
-						/>
-					</li>
-					<li class="wrap-image ratio ratio-1x1">
-						<img src="./assets/images/place3.webp" alt="Golden Gate Bridge" />
-					</li>
-					<li class="wrap-image ratio ratio-1x1">
-						<img
-							src="./assets/images/place4.webp"
-							alt="Edge of Golden Gate Bridge"
-						/>
-					</li>
-					<li class="wrap-image ratio ratio-1x1">
-						<img
-							src="./assets/images/place5.webp"
-							alt="Full view Golden Gate Bridge"
-						/>
-					</li>
-					<li class="wrap-image ratio ratio-1x1">
-						<img
-							src="./assets/images/place6.webp"
-							alt="Gray Golden Gate Bridge"
-						/>
-					</li>
-				</ul>
-			</section>
-			<!-- end places section -->
-
-			<!-- begin account section -->
-			<section
-				class="account d-flex flex-column align-items-center pt-50 pt-md-40 pb-42 pb-md-25 pb-xl-37 pt-xl-70"
-			>
-				<h2 class="heading account-heading text-center mb-30 mb-xl-40">
-					Create An Account
-				</h2>
-
-				<form
-					class="account-form d-flex flex-column justify-content-center align-items-center rounded-3 mb-15"
-				>
-					<h3 class="form-title text-md text-uppercase text-center">sign up</h3>
-					<div class="form-main">
-						<label for="email-3" class="form-label"></label>
-						<input
-							type="email"
-							id="email-3"
-							class="form-control"
-							placeholder="Email"
-						/>
-						<label for="password" class="form-label"></label>
-						<input
-							type="password"
-							id="password"
-							class="form-control"
-							placeholder="Password"
-						/>
-						<label for="confirm-password" class="form-label"></label>
-						<input
-							type="password"
-							id="confirm-password"
-							class="form-control"
-							placeholder="Confirm Password"
-						/>
-					</div>
-					<a
-						href="#!"
-						class="text-signin text-center my-15"
-						aria-label="Sign in"
-						>Already Have an account?</a
-					>
-					<button class="button primary-button">sign up</button>
-				</form>
-			</section>
-			<!-- end account section -->
-
-			<!-- begin contact section -->
-			<section class="contact pt-50 pb-22 pb-md-70 pt-xl-85 pb-xl-80">
-				<h2 class="heading contact-heading text-center mb-40 mb-md-20 mb-xl-65">
-					Contact Us
-				</h2>
-
-				<div class="container d-md-flex p-0">
-					<form
-						class="contact-form row col-md col-xl-5 order-xl-2 pb-45 mx-auto ms-xl-65 me-xl-24 px-xl-60 py-xl-40"
-					>
-						<div class="col ps-0">
-							<label for="name" class="form-label mb-xl-18">Name:</label>
-							<input
-								type="text"
-								class="form-control"
-								id="name"
-								placeholder="Letha Terry"
-							/>
-						</div>
-						<div class="col ps-0">
-							<label for="email-2" class="form-label mb-xl-18">Email:</label>
-							<input
-								type="text"
-								class="form-control"
-								id="email-2"
-								placeholder="letha.terry@ya"
-							/>
-						</div>
-						<div class="ps-0 mt-9 mt-xl-15">
-							<label for="text-area" class="mb-xl-20">Message:</label>
-							<textarea id="text-area" class="message form-control"></textarea>
-						</div>
-						<button class="button primary-button mx-auto mt-19 mt-xl-24">
-							submit
-						</button>
-					</form>
-
-					<div
-						class="contact-method mb-23 col-md-3 col-xl-3 order-xl-1 mb-md-0 ps-md-13 ps-xl-92"
-					>
-						<h3 class="text-md contact-title mt-6 mb-6 mb-md-13 mb-xl-24">
-							Get In Touch
-						</h3>
-						<p class="mb-10 mb-xl-21 d-flex">
-							<span class="address-icon"
-								><i class="bi bi-geo-alt-fill"></i
-							></span>
-							<span class="ps-4 ps-xl-15"
-								>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</span
-							>
-						</p>
-						<a
-							class="email-address text-decoration-none mb-8 mb-xl-25 d-flex"
-							href="mailto:dinhsang2313@gmail.com"
-						>
-							<span class="address-icon"
-								><i class="bi bi-envelope-fill"></i
-							></span>
-							<span class="ps-4 ps-xl-10">contact@hofmannui.net</span>
-						</a>
-						<div class="phone-contact mb-4 d-flex">
-							<span class="address-icon"
-								><i class="bi bi-telephone-fill"></i
-							></span>
-							<span class="ps-4 ps-xl-10">
-								<a
-									class="phone-number text-decoration-none"
-									href="tel:+793-891-7938"
-									>793-891-7938</a
-								>
-								<a
-									class="phone-number text-decoration-none"
-									href="tel:+512-915-5628"
-									>512-915-5628</a
-								>
-								<a
-									class="phone-number text-decoration-none"
-									href="tel:+952-775-6021"
-									>952-775-6021</a
-								>
-							</span>
-						</div>
-					</div>
-
-					<div
-						class="contact-more col-md-4 col-xl-3 order-xl-3 pb-30 ps-md-20 ps-xl-0 pe-xl-60"
-					>
-						<div class="contact-credits mb-17 mb-xl-40">
-							<h3 class="contact-title text-md mb-15 mt-xl-6 mb-xl-6">
-								Credits
-							</h3>
-							<p class="contact-text">
-								In order to discuss the general function of the logo, we must
-								firstly identify and define the environment where this will have
-								to fulfill its function.
-							</p>
-						</div>
-
-						<div class="contact-social">
-							<h3 class="text-md mb-15 mb-xl-33">Follow</h3>
-							<div>
-								<a
-									class="wrap-icon d-inline-block me-20 mb-20"
-									href="https://www.pinterest.com"
-									aria-label="Go to pinterest"
-								>
-									<i class="bi bi-pinterest"></i>
-								</a>
-								<a
-									class="wrap-icon d-inline-block me-20 mb-20"
-									href="https://www.linedin.com"
-									aria-label="Go to linkedin"
-								>
-									<i class="bi bi-linkedin"></i>
-								</a>
-								<a
-									class="wrap-icon d-inline-block me-20 mb-20"
-									href="https://www.google.com"
-									aria-label="Go to google"
-								>
-									<i class="bi bi-google"></i>
-								</a>
-								<a
-									class="wrap-icon d-inline-block me-20 mb-20"
-									href="https://www.twitter.com"
-									aria-label="Go to twitter"
-								>
-									<i class="bi bi-twitter"></i>
-								</a>
-								<a
-									class="wrap-icon d-inline-block me-20 mb-20"
-									href="https://www.facebook.com"
-									aria-label="Go to facebook"
-								>
-									<i class="bi bi-facebook"></i>
-								</a>
-								<a
-									class="wrap-icon d-inline-block me-20 mb-20"
-									href="https://www.instagram.com"
-									aria-label="Go to instagram"
-								>
-									<i class="bi bi-instagram"></i>
-								</a>
+						<div class="team-member d-flex">
+							<div class="member-avatar ratio ratio-1x1">
+							<img
+									 srcset="./assets/images/member-1-small.webp 48w,
+														./assets/images/member-1-medium.webp 62w,
+													 ./assets/images/member-1-large.webp 80w"
+									 src="./assets/images/member-1-large.webp"
+									 sizes="(min-width: 1200px) 80px,
+									 				(min-width: 768px) 62px,
+									 				48px"
+									alt="Johnny Vargas avatar"
+									class="img-fluid"/>
+							</div>
+							<div class="member-desc mt-2 mt-xl-6 ms-21 ms-md-17 ms-xl-16">
+								<h3 class="text-md">Johnny Vargas</h3>
+								<h4>Back-end Developer</h4>
+								<p class="pt-9">
+									Maintain Your PC S Performance With PC Programs
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- end contact section -->
+
+			<!-- begin pricing section -->
+			<section class="pricing container-fluid pb-42 pb-md-80 pb-xl-116 pt-52 pt-md-57 pt-xl-70">
+				<div class="container">
+					<h2 class="heading text-center text-white mb-20 mb-md-32 mb-xl-52">
+						Choose Your Plan
+					</h2>
+
+					<div class="d-flex flex-column flex-md-row align-items-center justify-content-center gx-24 gy-md-30">
+						<div class="card pricing-card text-center d-flex align-items-center pt-25 pt-md-35 pt-xl-44 pb-28 pb-md-32 pb-xl-37">
+							<h3 class="card-title primary-title text-md text-uppercase mb-10 mb-md-21 mb-xl-40">
+								silver
+							</h3>
+							<div class="position-relative mb-15 mb-md-14 mb-xl-28">
+								<span class="dola position-absolute">$</span>
+								<p class="price">49</p>
+							</div>
+							<span class="card-duration text-uppercase mb-16 mb-md-17 mb-xl-24">Year</span>
+							<ul class="mb-25 mb-md-20 mb-xl-32">
+								<li>Personal Account</li>
+								<li>25 GB Discspace</li>
+								<li>50 Uploads per day</li>
+							</ul>
+							<button class="secondary-button card-button">purchase</button>
+						</div>
+						<div class="card pricing-card text-center d-flex align-items-center pt-25 pt-md-35 pt-xl-44 pb-28 pb-md-32 pb-xl-37">
+							<h3 class="card-title secondary-title text-md text-uppercase mb-10 mb-md-21 mb-xl-40">
+								gold
+							</h3>
+							<div class="position-relative mb-15 mb-md-14 mb-xl-28">
+								<span class="dola position-absolute">$</span>
+								<p class="price">99</p>
+							</div>
+							<span class="card-duration text-uppercase mb-16 mb-md-17 mb-xl-24">Year</span>
+							<ul class="mb-25 mb-md-20 mb-xl-32">
+								<li>Personal Account</li>
+								<li>50 GB Discspace</li>
+								<li>500 Uploads per day</li>
+							</ul>
+							<button class="secondary-button card-button">purchase</button>
+							</div>
+						<div class="card pricing-card text-center d-flex align-items-center pt-25 pt-md-35 pt-xl-44 pb-28 pb-md-32 pb-xl-37">
+							<h3 class="card-title primary-title text-md text-uppercase mb-10 mb-md-21 mb-xl-40">
+								platinum
+							</h3>
+							<div class="position-relative mb-15 mb-md-14 mb-xl-28">
+								<span class="dola position-absolute">$</span>
+								<p class="price">299</p>
+							</div>
+							<span class="card-duration text-uppercase mb-16 mb-md-17 mb-xl-24">Year</span>
+							<ul class="mb-25 mb-md-20 mb-xl-32">
+								<li>Team Account</li>
+								<li>500 GB Discspace</li>
+								<li>Unlimited Uploads per</li>
+							</ul>
+							<button class="secondary-button card-button">purchase</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- begin places section -->
+			<section class="places mx-auto pt-37 pt-md-45 pt-xl-65 pb-45 pb-xl-75">
+				<div class="container">
+					<h2 class="heading text-center me-md-6 ms-xl-10">Places</h2>
+
+					<select class="places-select btn rounded-pill text-uppercase d-block d-md-none mx-auto mt-18">
+						<option class="text-md">San Francisco</option>
+						<option class="text-md">South Liliana</option>
+						<option class="text-md">Blickview</option>
+						<option class="text-md">New Raven</option>
+					</select>
+
+					<ul class="places-name d-none d-md-flex text-uppercase justify-content-center gap-md-54 mt-18 mt-md-14 mt-xl-27">
+						<li class="text-md">
+							<a class="text-decoration-none" href="#!" aria-label="See more picture about San Francisco">San Francisco</a>
+						</li>
+						<li class="text-md">
+							<a class="text-decoration-none" href="#!" aria-label="See more picture about South Liliana">South Liliana</a>
+						</li>
+						<li class="text-md">
+							<a class="text-decoration-none" href="#!" aria-label="See more picture about Blickview">Blickview</a>
+						</li>
+						<li class="text-md">
+							<a class="text-decoration-none" href="#!" aria-label="See more picture about New Raven">New Raven</a>
+						</li>
+					</ul>
+
+					<ul class="place-pictures d-flex flex-wrap gap-2 gap-md-3 gap-xl-4 justify-content-center mt-25 mt-md-20 mt-xl-27">
+						<li class="wrap-image ratio ratio-1x1">
+							<img class="img-fluid"
+									 srcset="./assets/images/place1-small.webp 116w,
+													 ./assets/images/place1-medium.webp 192w,
+													 ./assets/images/place1-large.webp 300w"
+									 src="./assets/images/place1-medium.webp"
+									 sizes="(min-width: 1200px) 300px,
+									 				(min-width: 768px) 192px,
+													116px"
+									 alt="Sea in San Francisco" />
+						</li>
+						<li class="wrap-image ratio ratio-1x1">
+							<img class="img-fluid"
+									 srcset="./assets/images/place2-small.webp 116w,
+													 ./assets/images/place2-medium.webp 192w,
+													 ./assets/images/place2-large.webp 300w"
+									 src="./assets/images/place2-medium.webp"
+									 sizes="(min-width: 1200px) 300px,
+									 				(min-width: 768px) 192px,
+									 				116px"
+									 alt="Rocky Beach in San Francisco" />
+						</li>
+						<li class="wrap-image ratio ratio-1x1">
+							<img class="img-fluid"
+									 srcset="./assets/images/place3-small.webp 116w,
+													 ./assets/images/place3-medium.webp 192w,
+													 ./assets/images/place3-large.webp 300w"
+									 src="./assets/images/place3-medium.webp"
+									 sizes="(min-width: 1200px) 300px,
+									 				(min-width: 768px) 192px,
+									 				116px"
+									 alt="Golden Gate Bridge" />
+						</li>
+						<li class="wrap-image ratio ratio-1x1">
+							<img class="img-fluid"
+									 srcset="./assets/images/place4-small.webp 116w,
+													 ./assets/images/place4-medium.webp 192w,
+													 ./assets/images/place4-large.webp 300w"
+									 src="./assets/images/place4-medium.webp"
+									 sizes="(min-width: 1200px) 300px,
+									 				(min-width: 768px) 192px,
+													116px"
+									 alt="Edge of Golden Gate Bridge" />
+						</li>
+						<li class="wrap-image ratio ratio-1x1">
+							<img class="img-fluid"
+									 srcset="./assets/images/place5-small.webp 116w,
+													 ./assets/images/place5-medium.webp 192w,
+													 ./assets/images/place5-large.webp 300w"
+									 src="./assets/images/place5-medium.webp"
+									 sizes="(min-width: 1200px) 300px,
+									 				(min-width: 768px) 192px,
+													116px"
+									 alt="Full view Golden Gate Bridge" />
+						</li>
+						<li class="wrap-image ratio ratio-1x1">
+							<img class="img-fluid"
+									 srcset="./assets/images/place6-small.webp 116w,
+													 ./assets/images/place6-medium.webp 192w,
+													 ./assets/images/place6-large.webp 300w"
+									 src="./assets/images/place6-medium.webp"
+									 sizes="(min-width: 1200px) 300px,
+									 				(min-width: 768px) 192px,
+													116px"
+									 alt="Gray Golden Gate Bridge" />
+						</li>
+					</ul>
+				</div>
+				</section>
+
+			<!-- begin account section -->
+			<section class="account position-relative">
+				<picture>
+					<source
+						media="(min-width: 1200px)"
+						srcset="./assets/images/account-bg-large.webp"/>
+					<source
+						media="(min-width: 768px)"
+						srcset="./assets/images/account-bg-medium.webp"/>
+					<img
+						class="background position-absolute"
+						src="./assets/images/account-bg-small.webp"
+						alt="background account"/>
+				</picture>
+
+				<div class="container d-flex flex-column align-items-center pt-50 pb-42 py-md-40 pb-xl-37 pt-xl-70">
+					<h2 class="heading account-heading text-center mb-30 mb-xl-40">Create An Account</h2>
+
+					<form class="account-form d-flex flex-column align-items-center rounded-3 pb-20 pt-37">
+						<h3 class="form-title text-md text-uppercase text-center mb-15">sign up</h3>
+						<div class="form-main">
+							<input type="email" class="form-control mb-13" aria-label="Email" placeholder="Email" />
+							<input type="password" class="form-control mb-10" aria-label="Password" placeholder="Password" />
+							<input type="password" class="form-control mb-20" aria-label="Confirm Password" placeholder="Confirm Password" />
+						</div>
+						<a href="#!" class="text-signin text-center mb-25" aria-label="Sign in">Already Have an account?</a>
+						<button class="secondary-button">sign up</button>
+					</form>
+				</div>
+				</section>
+
+			<!-- begin contact section -->
+			<section class="contact pt-50 pb-22 pb-md-70 pt-xl-85 pb-xl-80">
+				<div class="container">
+					<h2 class="heading contact-heading text-center mb-40 mb-md-20 mb-xl-65">
+						Contact Us
+					</h2>
+
+					<div class="d-md-flex p-0">
+						<form class="contact-form row col-md col-xl-5 order-xl-2 pb-45 mx-auto ms-xl-65 me-xl-24 px-xl-60 py-xl-40">
+							<div class="col ps-0">
+								<label for="name" class="form-label mb-xl-18">Name:</label>
+								<input type="text" class="form-control" id="name" placeholder="Letha Terry" />
+							</div>
+							<div class="col ps-0">
+								<label for="email-2" class="form-label mb-xl-18">Email:</label>
+								<input type="text" class="form-control" id="email-2" placeholder="letha.terry@ya" />
+							</div>
+							<div class="ps-0 mt-9 mt-xl-15">
+								<label for="text-area" class="mb-xl-20">Message:</label>
+								<textarea id="text-area" class="message form-control"></textarea>
+							</div>
+							<button class="secondary-button mx-auto mt-19 mt-xl-24">
+								submit
+							</button>
+						</form>
+
+						<div class="contact-method mb-23 col-md-3 col-xl-3 order-xl-1 mb-md-0 ps-md-13 ps-xl-92">
+							<h3 class="text-md contact-title mt-6 mb-6 mb-md-13 mb-xl-24">
+								Get In Touch
+							</h3>
+							<p class="mb-10 mb-xl-21 d-flex">
+								<span class="address-icon"><i class="bi bi-geo-alt-fill"></i></span>
+								<span class="ps-4 ps-xl-15">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</span>
+							</p>
+							<a class="email-address text-decoration-none mb-8 mb-xl-25 d-flex" href="mailto:dinhsang2313@gmail.com">
+								<span class="address-icon"><i class="bi bi-envelope-fill"></i></span>
+								<span class="ps-4 ps-xl-10">contact@hofmannui.net</span>
+							</a>
+							<div class="phone-contact mb-4 d-flex">
+								<span class="address-icon"><i class="bi bi-telephone-fill"></i></span>
+								<span class="ps-4 ps-xl-10">
+									<a class="phone-number text-decoration-none" href="tel:+793-891-7938">793-891-7938</a>
+									<a class="phone-number text-decoration-none" href="tel:+512-915-5628">512-915-5628</a>
+									<a class="phone-number text-decoration-none" href="tel:+952-775-6021">952-775-6021</a>
+								</span>
+							</div>
+						</div>
+
+						<div class="contact-more col-md-4 col-xl-3 order-xl-3 pb-30 ps-md-20 ps-xl-0 pe-xl-60">
+							<div class="contact-credits mb-17 mb-xl-40">
+								<h3 class="contact-title text-md mb-15 mt-xl-6 mb-xl-6">
+									Credits
+								</h3>
+								<p class="contact-text">
+									In order to discuss the general function of the logo, we must
+									firstly identify and define the environment where this will have
+									to fulfill its function.
+								</p>
+							</div>
+
+							<div class="contact-social">
+								<h3 class="text-md mb-15 mb-xl-33">Follow</h3>
+								<div>
+									<a class="wrap-icon d-inline-block me-20 mb-20" href="https://www.pinterest.com" aria-label="Go to pinterest">
+										<i class="bi bi-pinterest"></i>
+									</a>
+									<a class="wrap-icon d-inline-block me-20 mb-20" href="https://www.linedin.com" aria-label="Go to linkedin">
+										<i class="bi bi-linkedin"></i>
+									</a>
+									<a class="wrap-icon d-inline-block me-20 mb-20" href="https://www.google.com" aria-label="Go to google">
+										<i class="bi bi-google"></i>
+									</a>
+									<a class="wrap-icon d-inline-block me-20 mb-20" href="https://www.twitter.com" aria-label="Go to twitter">
+										<i class="bi bi-twitter"></i>
+									</a>
+									<a class="wrap-icon d-inline-block me-20 mb-20" href="https://www.facebook.com" aria-label="Go to facebook">
+										<i class="bi bi-facebook"></i>
+									</a>
+									<a class="wrap-icon d-inline-block me-20 mb-20" href="https://www.instagram.com" aria-label="Go to instagram">
+										<i class="bi bi-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<!-- begin footer -->
 		<footer class="footer pt-32 pt-md-20 pt-xl-52 pb-68 pb-md-44">
-			<div class="wrapper-footer position-relative mx-auto">
+			<div class="container position-relative mx-auto">
 				<div class="footer-top d-flex flex-wrap justify-content-between d-grid">
 					<div class="contact-us col-6 col-md-4">
 						<h3 class="title text-md text-uppercase mb-15 mb-xl-25">
@@ -620,17 +551,10 @@
 								2300 W Arbutus Dr Citrus Springs, FL 34434, USA
 							</p>
 							<span>
-								<a
-									class="text-decoration-none color-gray-white ps-xl-55"
-									href="tel:+793-891-7938"
-									>+235 793-891-7938</a
-								>
+								<a class="text-decoration-none color-gray-white ps-xl-55" href="tel:+793-891-7938">+235 793-891-7938</a>
 								<br />
-								<a
-									class="text-decoration-none color-gray-white ps-xl-55"
-									href="mailto:contact@hofmannui.net"
-									>contact@hofmannui.net</a
-								>
+								<a class="text-decoration-none color-gray-white ps-xl-55"
+									href="mailto:contact@hofmannui.net">contact@hofmannui.net</a>
 							</span>
 						</div>
 					</div>
@@ -638,33 +562,22 @@
 					<div class="follow-us col-6 col-md-4 col-xl-3 ps-6 ps-md-70 ps-xl-90">
 						<h3 class="title text-md text-uppercase mb-20">follow us</h3>
 						<div class="icons-social">
-							<a
-								href="https://www.pinterest.com"
-								class="wrap-image d-inline-block me-20"
-								aria-label="Go to pinterest website"
-							>
+							<a href="https://www.pinterest.com" class="wrap-image d-inline-block me-20"
+								aria-label="Go to pinterest website">
 								<i class="bi bi-pinterest"></i>
 							</a>
-							<a
-								href="https://www.twitter.com"
-								class="wrap-image d-inline-block me-20"
-								aria-label="Go to twitter social network"
-							>
+							<a href="https://www.twitter.com" class="wrap-image d-inline-block me-20"
+								aria-label="Go to twitter social network">
 								<i class="bi bi-twitter"></i>
 							</a>
-							<a
-								href="https://www.facebook.com"
-								class="wrap-image d-inline-block me-20"
-								aria-label="Go to facebook social network"
-							>
+							<a href="https://www.facebook.com" class="wrap-image d-inline-block me-20"
+								aria-label="Go to facebook social network">
 								<i class="bi bi-facebook"></i>
 							</a>
 						</div>
 					</div>
 
-					<div
-						class="about-us col col-md-4 col-xl-5 mt-34 mt-md-0 ps-md-19 ps-xl-85"
-					>
+					<div class="about-us col col-md-4 col-xl-5 mt-34 mt-md-0 ps-md-19 ps-xl-85">
 						<h3 class="title text-md text-uppercase mb-15">about us</h3>
 						<p class="color-gray-white">
 							Hoffman UI Kit was made to help you quickly create beautiful
@@ -673,77 +586,25 @@
 					</div>
 				</div>
 
-				<div
-					class="base-line mb-15 mt-18 mb-md-6 mt-md-14 mb-xl-13 mt-xl-39"
-				></div>
+				<hr class="mb-15 mt-18 mb-md-6 mt-md-14 mb-xl-13 mt-xl-39">
 
-				<div class="footer-bottom">
-					<ul class="footer-nav navbar position-relative mx-md-auto pt-0">
-						<li class="text-uppercase">
-							<a
-								class="nav-link text-decoration-none"
-								href="#"
-								aria-label="Go to home"
-								>Home</a
-							>
-						</li>
-						<li class="text-uppercase">
-							<a
-								class="nav-link text-decoration-none"
-								href="#"
-								aria-label="Learn more about services"
-								>Services</a
-							>
-						</li>
-						<li class="text-uppercase">
-							<a
-								class="nav-link text-decoration-none"
-								href="#"
-								aria-label="understand about our team"
-								>Team</a
-							>
-						</li>
-						<li class="text-uppercase">
-							<a
-								class="nav-link text-decoration-none"
-								href="#"
-								aria-label="Go to Portfolio"
-								>Portfolio</a
-							>
-						</li>
-						<li class="text-uppercase">
-							<a
-								class="nav-link text-decoration-none"
-								href="#"
-								aria-label="contact us"
-								>Contact</a
-							>
-						</li>
-					</ul>
-				</div>
-
-				<div
-					class="position-absolute container d-flex justify-content-between align-items-baseline px-md-0"
-				>
-					<p class="copy-right color-gray-white">© 2016 Hofmann UI Kit</p>
-					<div class="to-top">
-						<span class="color-gray-white">To the Top</span>
-						<a
-							class="btn to-top-btn p-7 p-xl-12"
-							href="#"
-							role="button"
-							aria-label="Comeback top page"
-						>
-							<img
-								class="d-block"
-								src="./assets/icons/up-arrow.webp"
-								alt="arrow to the top page"
-							/>
+				<div class="footer-bottom row">
+					<nav class="footer-nav navbar col-12 col-md-7 order-md-2 mx-md-auto">
+						<a class="nav-link text-uppercase text-decoration-none" href="#" aria-label="Go to home">Home</a>
+						<a class="nav-link text-uppercase text-decoration-none" href="#" aria-label="Learn more about services">Services</a>
+						<a class="nav-link text-uppercase text-decoration-none" href="#" aria-label="understand about our team">Team</a>
+						<a class="nav-link text-uppercase text-decoration-none" href="#" aria-label="Go to Portfolio">Portfolio</a>
+						<a class="nav-link text-uppercase text-decoration-none" href="#" aria-label="contact us">Contact</a>
+					</nav>
+					<small class="copy-right col-6 col-md-3 order-md-1 color-gray-white my-auto">© 2016 Hofmann UI Kit</small>
+					<span class="to-top col-6 col-md-1 order-md-3 d-flex justify-content-end align-items-center">
+						<span class="color-gray-white me-10 d-md-none">To the Top</span>
+						<a class="btn to-top-btn p-7 p-xl-12" href="#" role="button" aria-label="Comeback top page">
+							<img class="d-block" src="./assets/icons/up-arrow.webp" alt="arrow to the top page" />
 						</a>
-					</div>
+					</span>
 				</div>
 			</div>
 		</footer>
-		<!-- end footer -->
 	</body>
 </html>

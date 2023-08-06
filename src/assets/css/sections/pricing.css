@@ -6,55 +6,48 @@
   letter-spacing: normal;
 }
 
-.pricing .card {
-  width: 220px;
-  height: 248px;
+.pricing-card {
+  width: calc(100% - 52px);
   border-radius: 9px;
   box-shadow: 0px 0px 9px 4px #343131;
-}
-
-.primary-card,
-.thirty-card {
-  color: var(--ntrl-min-color);
-  background: linear-gradient(to right, var(--secondary-color), #616060);
-}
-
-.secondary-card {
-  color: var(--secondary-color);
-  background: var(--primary-color);
-}
-
-.thirty-card {
-  background: linear-gradient(to right, var(--secondary-color), #272626);
+	color: var(--ntrl-min-color);
+	background: linear-gradient(to right, var(--secondary-color), #616060);
+	transition: all 0.5s;
 }
 
 .pricing .card-title {
-  color: var(--primary-color);
+	color: var(--primary-color);
+	letter-spacing: 0.667px;
 }
 
 .pricing .primary-title {
-  font-family: "Lucide Grand";
-}
-
-.pricing .secondary-title {
-  color: var(--secondary-color);
-}
-
-.pricing .card-title {
-  letter-spacing: 0.667px;
+	font-family: "Lucide Grand";
 }
 
 .pricing .card-duration {
-  letter-spacing: 0.667px;
+	letter-spacing: 0.667px;
 }
 
 .pricing .price {
-  font-size: 36px;
+	font-size: 36px;
 }
 
 .dola {
-  top: -6px;
-  left: -10px;
+	top: -6px;
+	left: -10px;
+}
+
+.pricing-card:hover {
+	background: var(--primary-color);
+	color: var(--secondary-color);
+}
+
+.pricing-card:hover .card-title {
+	color: var(--secondary-color);
+}
+
+.pricing-card:hover .card-button {
+	background: var(--secondary-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -62,13 +55,13 @@
     letter-spacing: -0.8px;
   }
 
-  .pricing .card {
-    height: 280px;
+  .pricing-card {
+		width: calc((100% - 60px)/3);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .card-container {
+  .container {
     transform: translateX(15px);
   }
 }
@@ -78,16 +71,8 @@
     letter-spacing: -1.6px;
   }
 
-  .pricing .card {
-    width: 360px;
-    height: 396px;
-  }
-
-  .pricing .card-title {
-    letter-spacing: 1px;
-  }
-
-  .pricing .card-duration {
+  .pricing .card-title,
+	.card-duration {
     letter-spacing: 1px;
   }
 

@@ -4,9 +4,13 @@ header .navbar {
 }
 
 .navbar-brand {
-  color: var(--primary-color);
-  font-size: 24px;
-  letter-spacing: 2.487px;
+	width: 130px;
+	height: 19px;
+}
+
+.navbar .logo {
+	width: 130px;
+	height: 19px;
 }
 
 .navbar-toggler {
@@ -15,6 +19,7 @@ header .navbar {
   background-color: transparent;
 }
 
+/* create nav button in  */
 .navbar-toggler .bar {
   width: 30px;
   height: 3px;
@@ -67,11 +72,11 @@ header .navbar {
   color: var(--ntrl-min-color);
   line-height: 1;
   letter-spacing: 0.998px;
+	transition: 0.5s;
 }
 
 .nav-link:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 
 @media screen and (max-width: 767.8px) {
@@ -110,18 +115,17 @@ header .navbar {
     height: 104px;
   }
 
-  .nav-link:hover {
-    color: var(--primary-color);
-  }
+	.nav-link:hover {
+		color: var(--primary-color);
+	}
 
-  .nav-button {
-    width: 148px;
-    border: 2px solid var(--ntrl-min-color);
-  }
+	.nav-button {
+		width: 148px;
+		border: 2px solid var(--ntrl-min-color);
+	}
 
   .nav-button:hover {
     color: var(--ntrl-max-color);
-    background-color: var(--primary-color);
   }
 }
 
@@ -131,8 +135,13 @@ header .navbar {
   }
 
   .navbar-brand {
-    font-size: 36px;
-    letter-spacing: 1.997px;
+		width: 184px;
+		height: 27px;
+  }
+
+	.navbar .logo {
+		width: 184px;
+		height: 27px;
   }
 
   .nav-button {

@@ -21,10 +21,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .contact .container {
-    width: 250px;
-  }
-
   .contact-form {
     width: 230px;
   }

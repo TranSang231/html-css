@@ -1,9 +1,3 @@
-.account {
-  background: url("../../images/account-bg.webp");
-  background-repeat: none;
-  background-size: cover;
-}
-
 .account-heading {
   color: var(--ntrl-min-color);
 }

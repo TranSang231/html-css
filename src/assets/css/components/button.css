@@ -1,44 +1,51 @@
-.button {
-  width: 140px;
-  height: 32px;
-  font-size: 11px;
-  border-radius: 50px;
-  text-transform: uppercase;
-  border: 0;
-}
-
-.button:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
+.primary-button,
+.secondary-button {
+	width: 140px;
+	height: 32px;
+	font-size: 11px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	transition: 0.5s;
 }
 
 .primary-button {
-  background-color: var(--primary-color);
-}
-
-.primary-button:hover {
-  background-color: var(--fourty-color);
+	background-color: transparent;
+	border: 2px;
 }
 
 .secondary-button {
-  background-color: var(--secondary-color);
+	background-color: var(--primary-color);
+	border: 0;
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+	transform: scale(1.1);
+}
+
+.primary-button:hover {
+	background-color: var(--primary-color);
 }
 
 .secondary-button:hover {
-  background-color: var(--thirty-color);
+	background-color: var(--secondary-color);
 }
 
 @media screen and (min-width: 768px) {
-  .button {
-    height: 40px;
-  }
+
+	.primary-button,
+	.secondary-button {
+		height: 40px;
+	}
 }
 
 @media screen and (min-width: 1200px) {
-  .button {
-    width: 198px;
-    height: 48px;
-    font-size: 16px;
-    letter-spacing: 1px;
-  }
+
+	.primary-button,
+	.secondary-button {
+		width: 198px;
+		height: 48px;
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
 }

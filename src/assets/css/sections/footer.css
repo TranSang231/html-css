@@ -3,17 +3,13 @@
   color: var(--ntrl-min-color);
 }
 
-.wrapper-footer {
-  width: 290px;
-}
-
 .places-name li a:hover {
   color: var(--primary-color);
   transition: 0.5s;
 }
 
 .footer-top .contact-us .title,
-.follow-us .title,
+.follow-us 	.title,
 .about-us .title {
   letter-spacing: 0.8px;
 }
@@ -23,17 +19,8 @@
   color: var(--ntrl-min-color);
 }
 
-.wrapper-footer .base-line {
-  border: 1px solid var(--ntrl-min-color);
-  width: 100%;
-}
-
 .footer-nav {
   z-index: 1000;
-}
-
-.wrapper-footer div:last-child {
-  bottom: -40px;
 }
 
 .to-top .to-top-btn {
@@ -46,29 +33,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .wrapper-footer {
-    width: 720px;
-  }
-
-  .footer-bottom .footer-nav {
-    width: 60%;
-    transform: translateY(14px);
-  }
-
-  .wrapper-footer div:last-child {
-    bottom: -16px;
-  }
-
   .to-top .to-top-btn:hover {
     background: var(--fourty-color);
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .wrapper-footer {
-    width: 1190px;
-  }
-
   .follow-us .icons-social .wrap-image .bi {
     font-size: 30px;
   }

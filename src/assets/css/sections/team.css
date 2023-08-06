@@ -1,9 +1,5 @@
-.team-main {
-  width: 275px;
-}
-
-.team-member {
-  width: 275px;
+.member-desc {
+	width: 200px;
 }
 
 .member-avatar {
@@ -17,14 +13,6 @@
     letter-spacing: normal;
   }
 
-  .team-main {
-    width: 596px;
-  }
-
-  .team-member {
-    width: 285px;
-  }
-
   .member-avatar {
     width: 62px;
     height: 62px;
@@ -36,13 +24,9 @@
     letter-spacing: -1.6px;
   }
 
-  .team-main {
-    width: 1136px;
-  }
-
-  .team-member {
-    width: 360px;
-  }
+		.member-desc {
+			width: 260px;
+		}
 
   .member-avatar {
     width: 80px;
