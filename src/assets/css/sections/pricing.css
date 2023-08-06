@@ -61,7 +61,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
+  .pricing .container {
     transform: translateX(15px);
   }
 }

@@ -27,16 +27,13 @@
 }
 
 @media screen and (max-width: 1199px) {
-  .contact-form .button {
+  .contact-form .form-button {
     width: 112px;
     height: 25px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .contact-form {
-    padding: 16px 43px 0 25px;
-  }
 
   .contact-method .phone-contact,
   .contact-social {

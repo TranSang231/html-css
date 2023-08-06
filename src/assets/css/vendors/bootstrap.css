@@ -60,12 +60,20 @@
 	padding-bottom: 30px;
 }
 
+.pb-40 {
+	padding-bottom: 40px;
+}
+
 .pb-42 {
 	padding-bottom: 42px;
 }
 
 .pb-45 {
 	padding-bottom: 45px;
+}
+
+.pb-55 {
+	padding-bottom: 55px;
 }
 
 .pb-68 {
@@ -78,6 +86,10 @@
 
 .pb-74 {
 	padding-bottom: 74px;
+}
+
+.pb-95 {
+	padding-bottom: 95px;
 }
 
 .pb-98 {

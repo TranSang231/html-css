@@ -88,6 +88,7 @@ header .navbar {
     background-color: var(--fourty-color);
     backdrop-filter: blur(5px);
     transition: 0.65s;
+		z-index: 1000;
   }
 
   #check:checked ~ .navbar-nav {
