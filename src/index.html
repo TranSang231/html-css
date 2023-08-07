@@ -19,8 +19,8 @@
 				<a href="#" class="navbar-brand p-0 ms-20 ms-md-31 ms-xl-167 mb-xl-70 mt-xl-45" aria-label="Comeback main page">
 					<img
 						class="img-fluid logo"
-						srcset="./assets/images/logo-medium.webp 130w,
-								   	./assets/images/logo-large.webp  184w"
+						srcset="./assets/images/logo-large.webp  184w,
+								./assets/images/logo-medium.webp 130w"
 						src="./assets/images/logo-medium.webp"
 						sizes="(min-width: 1200px) 184px, 130px"
 						alt="Hoffman"/>
@@ -437,13 +437,13 @@
 					<h2 class="heading account-heading text-center mb-30 mb-xl-40">Create An Account</h2>
 
 					<form class="account-form d-flex flex-column align-items-center rounded-3 pb-20 pt-37">
-						<h3 class="form-title text-md text-uppercase text-center mb-15">sign up</h3>
-						<div class="form-main">
+						<h3 class="account-form-title text-md text-uppercase text-center mb-15">sign up</h3>
+						<div class="account-form-main">
 							<input type="email" class="form-control mb-13" aria-label="Email" placeholder="Email" />
 							<input type="password" class="form-control mb-16" aria-label="Password" placeholder="Password" />
 							<input type="password" class="form-control mb-15" aria-label="Confirm Password" placeholder="Confirm Password" />
 						</div>
-						<a href="#!" class="text-signin text-center mb-18" aria-label="Sign in">Already Have an account?</a>
+						<a href="#!" class="account-form-signin text-center mb-18" aria-label="Sign in">Already Have an account?</a>
 						<button class="secondary-button">sign up</button>
 					</form>
 				</div>
@@ -468,7 +468,7 @@
 							</div>
 							<div class="col-12 ps-0 mt-9 mb-md-14	mt-xl-15 mb-xl-25">
 								<label for="text-area" class="mb-xl-20">Message:</label>
-								<textarea id="text-area" class="message form-control"></textarea>
+								<textarea id="text-area" class="contact-form-message form-control"></textarea>
 							</div>
 							<button class="secondary-button form-button mx-auto mt-19 mt-md-0 mt-xl-24">
 								submit
@@ -480,15 +480,15 @@
 								Get In Touch
 							</h3>
 							<p class="mb-10 mb-xl-21 d-flex">
-								<span class="address-icon"><i class="bi bi-geo-alt-fill"></i></span>
+								<span><i class="address-icon bi bi-geo-alt-fill"></i></span>
 								<span class="ps-4 ps-xl-15">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</span>
 							</p>
 							<a class="email-address text-decoration-none mb-8 mb-xl-25 d-flex" href="mailto:dinhsang2313@gmail.com">
-								<span class="address-icon"><i class="bi bi-envelope-fill"></i></span>
+								<span><i class="address-icon bi bi-envelope-fill"></i></span>
 								<span class="ps-4 ps-xl-10">contact@hofmannui.net</span>
 							</a>
 							<div class="phone-contact mb-4 d-flex">
-								<span class="address-icon"><i class="bi bi-telephone-fill"></i></span>
+								<span><i class="address-icon bi bi-telephone-fill"></i></span>
 								<span class="ps-4 ps-xl-10">
 									<a class="phone-number text-decoration-none" href="tel:+793-891-7938">793-891-7938</a>
 									<a class="phone-number text-decoration-none" href="tel:+512-915-5628">512-915-5628</a>
@@ -511,26 +511,38 @@
 
 							<div class="contact-social">
 								<h3 class="text-md mb-10 mb-xl-33">Follow</h3>
-								<div>
-									<a class="wrap-icon d-inline-block me-20 mb-md-20" href="https://www.pinterest.com" aria-label="Go to pinterest">
-										<i class="bi bi-pinterest"></i>
-									</a>
-									<a class="wrap-icon d-inline-block me-20 mb-md-20" href="https://www.linedin.com" aria-label="Go to linkedin">
-										<i class="bi bi-linkedin"></i>
-									</a>
-									<a class="wrap-icon d-inline-block me-20 mb-md-20" href="https://www.google.com" aria-label="Go to google">
-										<i class="bi bi-google"></i>
-									</a>
-									<a class="wrap-icon d-inline-block me-20 mb-md-20" href="https://www.twitter.com" aria-label="Go to twitter">
-										<i class="bi bi-twitter"></i>
-									</a>
-									<a class="wrap-icon d-inline-block me-20 mb-md-20" href="https://www.facebook.com" aria-label="Go to facebook">
-										<i class="bi bi-facebook"></i>
-									</a>
-									<a class="wrap-icon d-inline-block me-20 mb-md-20" href="https://www.instagram.com" aria-label="Go to instagram">
-										<i class="bi bi-instagram"></i>
-									</a>
-								</div>
+								<ul class="d-flex flex-wrap gap-4">
+									<li>
+										<a href="https://www.pinterest.com" aria-label="Go to pinterest">
+											<i class="social-icon bi bi-pinterest"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linedin.com" aria-label="Go to linkedin">
+											<i class="social-icon social-icon bi bi-linkedin"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.google.com" aria-label="Go to google">
+											<i class="social-icon bi bi-google"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.twitter.com" aria-label="Go to twitter">
+											<i class="social-icon bi bi-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com" aria-label="Go to facebook">
+											<i class="social-icon bi bi-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com" aria-label="Go to instagram">
+											<i class="social-icon bi bi-instagram"></i>
+										</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -542,7 +554,7 @@
 		<footer class="footer">
 			<div class="container position-relative mx-auto pt-32 pt-md-20 pt-xl-52 pb-68 pb-md-44">
 				<div class="footer-top d-flex flex-wrap justify-content-between d-grid">
-					<div class="contact-us col-6 col-md-4">
+					<div class="footer-contact col-6 col-md-4">
 						<h3 class="title text-md text-uppercase mb-15 mb-xl-25">
 							Contact us
 						</h3>
@@ -559,25 +571,28 @@
 						</div>
 					</div>
 
-					<div class="follow-us col-6 col-md-4 col-xl-3 ps-6 ps-md-70 ps-xl-90">
+					<div class="footer-follow col-6 col-md-4 col-xl-3 ps-6 ps-md-70 ps-xl-90">
 						<h3 class="title text-md text-uppercase mb-20">follow us</h3>
-						<div class="icons-social">
-							<a href="https://www.pinterest.com" class="wrap-image d-inline-block me-20"
-								aria-label="Go to pinterest website">
-								<i class="bi bi-pinterest"></i>
-							</a>
-							<a href="https://www.twitter.com" class="wrap-image d-inline-block me-20"
-								aria-label="Go to twitter social network">
-								<i class="bi bi-twitter"></i>
-							</a>
-							<a href="https://www.facebook.com" class="wrap-image d-inline-block me-20"
-								aria-label="Go to facebook social network">
-								<i class="bi bi-facebook"></i>
-							</a>
-						</div>
+						<ul class="d-flex gap-4">
+							<li>
+								<a href="https://www.pinterest.com" aria-label="Go to pinterest website">
+									<i class="social-icon text-white bi bi-pinterest"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.twitter.com" aria-label="Go to twitter social network">
+									<i class="social-icon text-white bi bi-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com" aria-label="Go to facebook social network">
+									<i class="social-icon text-white bi bi-facebook"></i>
+								</a>
+							</li>
+						</ul>
 					</div>
 
-					<div class="about-us col col-md-4 col-xl-5 mt-34 mt-md-0 ps-md-19 ps-xl-85">
+					<div class="footer-about col col-md-4 col-xl-5 mt-34 mt-md-0 ps-md-19 ps-xl-85">
 						<h3 class="title text-md text-uppercase mb-15">about us</h3>
 						<p class="color-gray-white">
 							Hoffman UI Kit was made to help you quickly create beautiful
@@ -597,7 +612,7 @@
 						<a class="nav-link text-uppercase text-decoration-none" href="#" aria-label="contact us">Contact</a>
 					</nav>
 					<small class="copy-right col-6 col-md-3 order-md-1 color-gray-white my-auto">© 2016 Hofmann UI Kit</small>
-					<span class="to-top col-6 col-md-1 order-md-3 d-flex justify-content-end align-items-center">
+					<span class="col-6 col-md-1 order-md-3 d-flex justify-content-end align-items-center">
 						<span class="color-gray-white me-10 d-md-none">To the Top</span>
 						<a class="btn to-top-btn p-7 p-xl-12" href="#" role="button" aria-label="Comeback top page">
 							<img class="d-block" src="./assets/icons/up-arrow.webp" alt="arrow to the top page" />

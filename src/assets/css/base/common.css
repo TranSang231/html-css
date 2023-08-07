@@ -23,6 +23,11 @@
   font-size: 13px;
 }
 
+.social-icon {
+	font-size: 15px;
+  color: var(--secondary-color);
+}
+
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 744px;
@@ -48,5 +53,9 @@
 
 	.text-md {
 		font-size: 18px;
+	}
+
+	.social-icon {
+    font-size: 30px;
 	}
 }

@@ -8,25 +8,25 @@
   height: 312px;
 }
 
-.account-form .form-title {
+.account-form-title {
   font-family: "Lucida Grande";
   letter-spacing: 0.8px;
   color: var(--primary-color);
   transform: translate(-4px, -5px);
 }
 
-.account-form .form-main {
+.account-form-main {
   width: 220px;
   letter-spacing: 0.11px;
   transform: translateY(-5px);
 }
 
-.account-form .form-main .form-control {
+.account-form-main .form-control {
   height: 32px;
   padding: 1px 6px 6px 13px;
 }
 
-.account-form .text-signin {
+.account-form-signin {
   color: var(--primary-color);
 }
 
@@ -37,7 +37,7 @@
     height: 325px;
   }
 
-  .account-form .form-main .form-control {
+  .account-form-main .form-control {
     height: 36px;
   }
 }
@@ -49,11 +49,11 @@
     height: 384px;
   }
 
-  .account-form .form-main {
+  .account-form-main {
     width: 256px;
   }
 
-  .account-form .form-main .form-control {
+  .account-form-main .form-control {
     font-size: 14px;
   }
 }

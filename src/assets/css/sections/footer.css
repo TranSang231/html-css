@@ -8,22 +8,17 @@
   transition: 0.5s;
 }
 
-.footer-top .contact-us .title,
-.follow-us 	.title,
-.about-us .title {
+.footer-contact .title,
+.footer-follow .title,
+.footer-about .title {
   letter-spacing: 0.8px;
-}
-
-.follow-us .icons-social .wrap-image .bi {
-  font-size: 20px;
-  color: var(--ntrl-min-color);
 }
 
 .footer-nav {
   z-index: 1000;
 }
 
-.to-top .to-top-btn {
+.to-top-btn {
   background: var(--primary-color);
 }
 
@@ -33,13 +28,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .to-top .to-top-btn:hover {
+  .to-top-btn:hover {
     background: var(--fourty-color);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .follow-us .icons-social .wrap-image .bi {
-    font-size: 30px;
   }
 }
